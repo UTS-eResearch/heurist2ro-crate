@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://researchobject.github.io/ro-crate/1.0/context.jsonld",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "Description": "Test export of Heurist converted to RO-Crate",
+      "name": "ExpertNation Fragment RO-Crate demo"
+    },
+    {
+      "@id": "ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "identifier": "ro-crate-metadata.jsonld"
+    }
+  ]
+}

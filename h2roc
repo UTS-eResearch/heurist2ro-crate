@@ -1,0 +1,81 @@
+#!/usr/bin/env node
+const xml2js = require("xml2js");
+const fs = require("fs-extra");
+const ROCrate = require("ro-crate").ROCrate;
+const Preview = require("ro-crate").Preview;
+const HtmlFile = require("ro-crate").HtmlFile;
+const domain = "expertnation";
+const path = require("path");
+
+// TODO - add parameters - make this generic
+destDir = "expertNation";
+filesDir = "test_data/files";
+templatefile = "test_data/template-ro-crate-metadata.json"
+function getId(id) {
+    return `#${domain}_${id}`;
+}
+async function main() {
+    const crate = new ROCrate(JSON.parse(await fs.readFile(templatefile)));
+    crate.index();
+    const rootDataset = crate.getRootDataset();
+    rootDataset.hasMember = [];
+    data =  fs.readFileSync("test_data/EN_test_sefton.xml");
+    result = await xml2js.parseStringPromise(data /*, options */)
+    .catch(function (err) {
+        // Failed
+    });
+    fs.writeFileSync("data.json", JSON.stringify(result, null, 2));
+
+    
+
+
+    for (let record of result.hml.records[0].record) {
+        const item = {
+            "@id": getId(record.id[0]),
+            "name": record.title[0],
+            "@type": record.type[0]["_"]
+        }
+        for (let detail of record.detail) {
+            const prop = detail["$"].name;
+            if (prop) {
+                const legalProp = prop.replace(/\W/g, "_");
+                if (detail["$"].isRecordPointer==="true") {
+                    item[legalProp] = {"@id": getId(detail["_"])}
+                } else if (detail.file) {
+                    var id;
+                    if (detail.file[0].origName[0] === "_remote") {
+                        id = detail.file[0].url[0];
+                    } else {
+                        id = `ulf_${detail.file[0].id[0]}_${detail.file[0].origName[0]}`; 
+                        // TODO - do we need to be smarter about file storage - this won't scale?
+                        try {
+                            await fs.copyFile(path.join(filesDir, id), path.join(destDir, id));
+                        } catch(err) {
+                            console.log(err);
+                        }
+                    }
+                    const file = {
+                         "@id": id,
+                         "@type": "File",
+                         "encodingFormat": detail.file[0].mimeType,
+                         "fileSize": `` //${detail.file[0].fileSize[0]["_"]}${detail.file[0].fileSize[0]["$"].units}
+                    }
+                    crate.addItem(file);
+                    item["hasFile"] = {"@id": id};
+                    console.log("COPYING!");
+                } else {
+                    item[legalProp] = detail["_"];
+                }
+        }
+        }
+        rootDataset.hasMember.push({"@id": item["@id"]});
+        crate.addItem(item);
+    }
+    fs.writeFileSync(path.join(destDir, "ro-crate-metadata.json"), JSON.stringify(crate.json_ld, null, 2));
+    const preview = await new Preview(crate);
+    const f = new HtmlFile(preview);
+    const html = path.join(destDir, "ro-crate-preview.html");
+    fs.writeFileSync(html, await f.render());
+}
+
+main()

@@ -1,0 +1,1278 @@
+{
+  "@context": [
+    "https://researchobject.github.io/ro-crate/1.0/context.jsonld",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "Description": "Test export of Heurist converted to RO-Crate",
+      "name": "ExpertNation Fragment RO-Crate demo",
+      "hasMember": [
+        {
+          "@id": "#expertnation_32"
+        },
+        {
+          "@id": "#expertnation_48"
+        },
+        {
+          "@id": "#expertnation_17"
+        },
+        {
+          "@id": "#expertnation_49"
+        },
+        {
+          "@id": "#expertnation_18"
+        },
+        {
+          "@id": "#expertnation_66"
+        },
+        {
+          "@id": "#expertnation_19"
+        },
+        {
+          "@id": "#expertnation_67"
+        },
+        {
+          "@id": "#expertnation_20"
+        },
+        {
+          "@id": "#expertnation_68"
+        },
+        {
+          "@id": "#expertnation_21"
+        },
+        {
+          "@id": "#expertnation_69"
+        },
+        {
+          "@id": "#expertnation_22"
+        },
+        {
+          "@id": "#expertnation_54"
+        },
+        {
+          "@id": "#expertnation_70"
+        },
+        {
+          "@id": "#expertnation_7"
+        },
+        {
+          "@id": "#expertnation_23"
+        },
+        {
+          "@id": "#expertnation_39"
+        },
+        {
+          "@id": "#expertnation_55"
+        },
+        {
+          "@id": "#expertnation_71"
+        },
+        {
+          "@id": "#expertnation_8"
+        },
+        {
+          "@id": "#expertnation_24"
+        },
+        {
+          "@id": "#expertnation_40"
+        },
+        {
+          "@id": "#expertnation_56"
+        },
+        {
+          "@id": "#expertnation_72"
+        },
+        {
+          "@id": "#expertnation_9"
+        },
+        {
+          "@id": "#expertnation_25"
+        },
+        {
+          "@id": "#expertnation_41"
+        },
+        {
+          "@id": "#expertnation_57"
+        },
+        {
+          "@id": "#expertnation_73"
+        },
+        {
+          "@id": "#expertnation_10"
+        },
+        {
+          "@id": "#expertnation_26"
+        },
+        {
+          "@id": "#expertnation_42"
+        },
+        {
+          "@id": "#expertnation_58"
+        },
+        {
+          "@id": "#expertnation_74"
+        },
+        {
+          "@id": "#expertnation_11"
+        },
+        {
+          "@id": "#expertnation_43"
+        },
+        {
+          "@id": "#expertnation_59"
+        },
+        {
+          "@id": "#expertnation_12"
+        },
+        {
+          "@id": "#expertnation_28"
+        },
+        {
+          "@id": "#expertnation_44"
+        },
+        {
+          "@id": "#expertnation_60"
+        },
+        {
+          "@id": "#expertnation_29"
+        },
+        {
+          "@id": "#expertnation_45"
+        },
+        {
+          "@id": "#expertnation_61"
+        },
+        {
+          "@id": "#expertnation_30"
+        },
+        {
+          "@id": "#expertnation_46"
+        },
+        {
+          "@id": "#expertnation_31"
+        },
+        {
+          "@id": "#expertnation_47"
+        },
+        {
+          "@id": "#expertnation_64"
+        },
+        {
+          "@id": "#expertnation_65"
+        },
+        {
+          "@id": "#expertnation_62"
+        },
+        {
+          "@id": "#expertnation_63"
+        },
+        {
+          "@id": "#expertnation_53"
+        },
+        {
+          "@id": "#expertnation_1"
+        },
+        {
+          "@id": "#expertnation_2"
+        },
+        {
+          "@id": "#expertnation_3"
+        },
+        {
+          "@id": "#expertnation_4"
+        },
+        {
+          "@id": "#expertnation_5"
+        },
+        {
+          "@id": "#expertnation_6"
+        },
+        {
+          "@id": "#expertnation_16"
+        },
+        {
+          "@id": "#expertnation_33"
+        },
+        {
+          "@id": "#expertnation_34"
+        },
+        {
+          "@id": "#expertnation_50"
+        },
+        {
+          "@id": "#expertnation_35"
+        },
+        {
+          "@id": "#expertnation_51"
+        },
+        {
+          "@id": "#expertnation_36"
+        },
+        {
+          "@id": "#expertnation_52"
+        },
+        {
+          "@id": "#expertnation_37"
+        },
+        {
+          "@id": "#expertnation_38"
+        },
+        {
+          "@id": "#expertnation_27"
+        },
+        {
+          "@id": "#expertnation_13"
+        },
+        {
+          "@id": "#expertnation_14"
+        },
+        {
+          "@id": "#expertnation_15"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "identifier": "ro-crate-metadata.jsonld"
+    },
+    {
+      "@id": "#expertnation_32",
+      "name": "The Junction Public School, The Junction, NSW, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "The Junction Public School",
+      "Place": {
+        "@id": "#expertnation_38"
+      }
+    },
+    {
+      "@id": "#expertnation_48",
+      "name": "Sydney Teacher's College, Camperdown, NSW, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "Sydney Teacher's College",
+      "Place": {
+        "@id": "#expertnation_52"
+      }
+    },
+    {
+      "@id": "#expertnation_17",
+      "name": "Colgan T.D. : Gannon's Creek Public School",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_2"
+      },
+      "School": {
+        "@id": "#expertnation_25"
+      },
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_49",
+      "name": "University of Sydney, Camperdown, NSW, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "University of Sydney",
+      "Place": {
+        "@id": "#expertnation_52"
+      }
+    },
+    {
+      "@id": "#expertnation_18",
+      "name": "Colgan T.D. : Huntington Public School",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_2"
+      },
+      "School": {
+        "@id": "#expertnation_26"
+      },
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_66",
+      "name": "Cobham R.S. : Share-Farmer",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_1"
+      },
+      "Occupation_title": "Share-Farmer",
+      "Sector": "Agricultural,Pastoral,Forestry and Fishery",
+      "Sources": "National Library of Australia (incl. Trove Newspapers)",
+      "Source_Details_free_text": "HIS THREE ADDRESSES (1935, October 18). The Murrumbidgee Irrigator (Leeton, NSW : 1915 - 1954), p. 1. Retrieved May 28, 2018, from http://nla.gov.au/nla.news-article156026713"
+    },
+    {
+      "@id": "#expertnation_19",
+      "name": "Colgan T.D. : Pappinbarra Public School",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_2"
+      },
+      "School": {
+        "@id": "#expertnation_28"
+      },
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_67",
+      "name": "Colgan T.D. : Headmaster",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_2"
+      },
+      "Sector": "Education-Primary & Secondary",
+      "Occupation_title": "Headmaster",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_20",
+      "name": "Colgan T.D. : St Patrick's College",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_2"
+      },
+      "School": {
+        "@id": "#expertnation_31"
+      },
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_68",
+      "name": "Colgan T.D. : Teacher",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_2"
+      },
+      "Sector": "Education-Primary & Secondary",
+      "Occupation_title": "Teacher",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_21",
+      "name": "Cornford H.W. : Newcastle High School",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_3"
+      },
+      "School": {
+        "@id": "#expertnation_27"
+      },
+      "Sources": "not recorded",
+      "Source_Details_free_text": "n/a"
+    },
+    {
+      "@id": "#expertnation_69",
+      "name": "Cornford H.W. : Assistant Teacher",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_3"
+      },
+      "Sector": "Education-Primary & Secondary",
+      "Occupation_title": "Assistant Teacher",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
+    },
+    {
+      "@id": "#expertnation_22",
+      "name": "Cornford H.W. : The Junction Public School",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_3"
+      },
+      "School": {
+        "@id": "#expertnation_32"
+      },
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
+    },
+    {
+      "@id": "#expertnation_54",
+      "name": "Grieve A.C. : Enlisted",
+      "@type": "Military service",
+      "Parent_record__person_": {
+        "@id": "#expertnation_4"
+      },
+      "Source_Details_free_text": "NAA\nhttps://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553",
+      "Type_of_event": "Enlisted",
+      "Sources": "National Archives of Australia (incl. Discovering Anzacs)",
+      "Short__description": "Mr Grieve enlisted on 4/11/1918. 2 weeks later he was discharged. \nNot assigned to any unit."
+    },
+    {
+      "@id": "#expertnation_70",
+      "name": "Cornford H.W. : Teacher",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_3"
+      },
+      "Occupation_title": "Teacher",
+      "Sector": "Education-Primary & Secondary",
+      "Sources": "National Library of Australia (incl. Trove Newspapers)",
+      "Source_Details_free_text": "TEACHERS IN CAMP (1939, November 15). The Cumberland Argus and Fruitgrowers Advocate (Parramatta, NSW : 1888 - 1950), p. 2. Retrieved April 5, 2018, from http://nla.gov.au/nla.news-article106201064"
+    },
+    {
+      "@id": "#expertnation_7",
+      "name": "Cobham R.S. : Birth - @ New Zealand [ New Zealand ]",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_1"
+      },
+      "Type_of_event": "Birth",
+      "Place": {
+        "@id": "#expertnation_15"
+      },
+      "Sources": "Other",
+      "Source_Details_free_text": "https://www.geni.com/people/Roger-Cobham/6000000025003980385"
+    },
+    {
+      "@id": "#expertnation_23",
+      "name": "Grieve A.C. : St Andrew",
+      "@type": "Schooling",
+      "Parent_record__person_": {
+        "@id": "#expertnation_4"
+      },
+      "School": {
+        "@id": "#expertnation_30"
+      },
+      "Sources": "National Library of Australia (incl. Trove Newspapers)",
+      "Source_Details_free_text": "1917 'ROSEWORTHY COLLEGE SCHOLARSHIPS.', The Register (Adelaide, SA : 1901 - 1929), 17 April, p. 4. , viewed 17 Jul 2017, http://nla.gov.au/nla.news-article59973899"
+    },
+    {
+      "@id": "#expertnation_39",
+      "name": "Cobham R.S. : Agricultural Science, Roseworthy Agricultural College",
+      "@type": "Tertiary study",
+      "Parent_record__person_": {
+        "@id": "#expertnation_1"
+      },
+      "Degree___qualification___courses": "Agricultural Science",
+      "Educational_institution__": {
+        "@id": "#expertnation_46"
+      },
+      "Was_the_degree_completed_": "No",
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student record"
+    },
+    {
+      "@id": "#expertnation_55",
+      "name": "McLean D.R. : Enlisted",
+      "@type": "Military service",
+      "Parent_record__person_": {
+        "@id": "#expertnation_5"
+      },
+      "Type_of_event": "Enlisted",
+      "Sources": "not recorded",
+      "Source_Details_free_text": "n/a"
+    },
+    {
+      "@id": "#expertnation_71",
+      "name": "Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_4"
+      },
+      "Original_occupation_text": "Sheep-raising in Naracoorte",
+      "Place": {
+        "@id": "#expertnation_14"
+      },
+      "Source_Details_free_text": "University of Adelaide Archives Series 1020 - 'The Student' Magazine of Roseworthy Agricultural College, 1897-1988: \n-Vol 20 No 1 July 1920, http://hdl.handle.net/2440/74013\n\n-Vol 34 No1 1938, p 86, http://hdl.handle.net/2440/74196 \n\nNLA, TROVE1930, http://nla.gov.au/nla.news-article147073394\nNLA TROVE 1940 http://nla.gov.au/nla.news-article147035469\nNLA TROVE 1946 http://nla.gov.au/nla.news-article200109331",
+      "Notes": "From 1920 onwards, Mr Grieve stationed himself at Naracoorte. He had a property and raised sheep for wool. In 1930 his farm and livestock was offered for sale. in 1935, the Roseworthy magazine reported he was residing in Naracoorte. In 1938 the Student magazine reported he had a property in Naracoorte. His farming activities were disrupted in 1940 when he enlisted to serve in the army. His farm and animals were offered up to sale in 1940. Post WWII, he probably resumed sheep raising, there was newspaper advertisement of merino wool for sale from his farm at Naracoorte.",
+      "Sector": "Agricultural,Pastoral,Forestry and Fishery",
+      "Occupation_title": "Sheep Farmer",
+      "Sources": "National Library of Australia (incl. Trove Newspapers)"
+    },
+    {
+      "@id": "#expertnation_8",
+      "name": "Colgan T.D. : Birth",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_2"
+      },
+      "Type_of_event": "Birth",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff cards - 171"
+    },
+    {
+      "@id": "#expertnation_24",
+      "name": "McNeil W.G. : Prince Alfred College",
+      "@type": "Schooling",
+      "Notes_about_schoolng": "Passed Royal society Drawing Examination 1914",
+      "Parent_record__person_": {
+        "@id": "#expertnation_6"
+      },
+      "School": {
+        "@id": "#expertnation_29"
+      },
+      "Sources": "National Library of Australia (incl. Trove Newspapers)",
+      "Source_Details_free_text": "1914 'SPEECH DAYS.', The Journal (Adelaide, SA : 1912 - 1923), 18 December, p. 4. (4 P.M. EDITION), viewed 05 Feb 2019, http://nla.gov.au/nla.news-article210041380"
+    },
+    {
+      "@id": "#expertnation_40",
+      "name": "Colgan T.D. : Education, Sydney Teacher's College",
+      "@type": "Tertiary study",
+      "Parent_record__person_": {
+        "@id": "#expertnation_2"
+      },
+      "Educational_institution__": {
+        "@id": "#expertnation_48"
+      },
+      "Degree___qualification___courses": "Education",
+      "Was_the_degree_completed_": "Unknown 2",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_56",
+      "name": "McNeil W.G. : Enlisted: Private",
+      "@type": "Military service",
+      "Short__description": "Private McNeil joined the AIF but was discharged a month later, reason was cessation of hostility.",
+      "Parent_record__person_": {
+        "@id": "#expertnation_6"
+      },
+      "Type_of_event": "Enlisted",
+      "Rank": "Private",
+      "Force_or_Unit": "A.I.F. Depots",
+      "Sources": "Australian War Memorial",
+      "Source_Details_free_text": "Service Record \nNAA: B2455, MCNEIL W G, Series number: B2455, Barcode: 1957862, Title: McNeil Willam George : SERN DEPOT S15783"
+    },
+    {
+      "@id": "#expertnation_72",
+      "name": "Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_4"
+      },
+      "Original_occupation_text": "\"with the firm of De Garis & Sons, stock agents, Naracoorte.\"",
+      "Source_Details_free_text": "University of Adelaide Archives Series 1020 - 'The Student' Magazine of Roseworthy Agricultural College, 1897-1988, Vol 23 No 1 March 1924\nhttp://hdl.handle.net/2440/74017",
+      "Place": {
+        "@id": "#expertnation_14"
+      },
+      "Notes": "Todate, the firm is still trading as \"DeGaris\"  in Naracoorte livestock exchange, see http://www.farmweekly.com.au/classifiedsimages/full/17665611.pdf",
+      "Sector": "Agricultural,Pastoral,Forestry and Fishery",
+      "Occupation_title": "Stock Agent",
+      "Sources": "University of Adelaide Archives"
+    },
+    {
+      "@id": "#expertnation_9",
+      "name": "Cornford H.W. : Birth",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_3"
+      },
+      "Type_of_event": "Birth",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
+    },
+    {
+      "@id": "#expertnation_25",
+      "name": "Gannon's Creek Public School, Gannon's Creek, NSW, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "Gannon's Creek Public School",
+      "Place": {
+        "@id": "#expertnation_34"
+      }
+    },
+    {
+      "@id": "#expertnation_41",
+      "name": "Cornford H.W. : Arts, University of Sydney",
+      "@type": "Tertiary study",
+      "Parent_record__person_": {
+        "@id": "#expertnation_3"
+      },
+      "Educational_institution__": {
+        "@id": "#expertnation_49"
+      },
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191\nNo mention of which university degree.",
+      "Degree___qualification___courses": "Arts",
+      "Was_the_degree_completed_": "Unknown 2",
+      "Sources": "State Records NSW"
+    },
+    {
+      "@id": "#expertnation_57",
+      "name": "Colgan T.D. : Enlisted",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_2"
+      },
+      "Type_of_event": "Enlisted",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff card - 171"
+    },
+    {
+      "@id": "#expertnation_73",
+      "name": "McNeil W.G. : Manager",
+      "@type": "Occupation eventlet",
+      "Person__": {
+        "@id": "#expertnation_6"
+      },
+      "Occupation_title": "Manager",
+      "Sector": "Unknown",
+      "Original_occupation_text": "Warehouse manager",
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student card"
+    },
+    {
+      "@id": "#expertnation_10",
+      "name": "Grieve A.C. : Birth - @ Naracoorte [ SA Australia ]",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_4"
+      },
+      "Type_of_event": "Birth",
+      "Place": {
+        "@id": "#expertnation_14"
+      },
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student Card"
+    },
+    {
+      "@id": "#expertnation_26",
+      "name": "Huntington Public School, Huntington, NSW, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "Huntington Public School",
+      "Place": {
+        "@id": "#expertnation_35"
+      }
+    },
+    {
+      "@id": "#expertnation_42",
+      "name": "Cornford H.W. : Education, Sydney Teacher's College",
+      "@type": "Tertiary study",
+      "Parent_record__person_": {
+        "@id": "#expertnation_3"
+      },
+      "Educational_institution__": {
+        "@id": "#expertnation_48"
+      },
+      "Degree___qualification___courses": "Education",
+      "Was_the_degree_completed_": "Unknown 2",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
+    },
+    {
+      "@id": "#expertnation_58",
+      "name": "Cornford H.W. : Enlisted",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_3"
+      },
+      "Type_of_event": "Enlisted",
+      "Sources": "State Records NSW",
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
+    },
+    {
+      "@id": "#expertnation_74",
+      "name": "IsSiblingOf : >> Cobham, R.S. (Roger Synnot)",
+      "@type": "Record relationship",
+      "Relationship_type": "IsSiblingOf",
+      "Target_record": {
+        "@id": "#expertnation_1"
+      }
+    },
+    {
+      "@id": "#expertnation_11",
+      "name": "McLean D.R. : Birth - @ Victoria [ VIC Australia ]",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_5"
+      },
+      "Type_of_event": "Birth",
+      "Place": {
+        "@id": "#expertnation_16"
+      },
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student record"
+    },
+    {
+      "@id": "#expertnation_43",
+      "name": "Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College",
+      "@type": "Tertiary study",
+      "Parent_record__person_": {
+        "@id": "#expertnation_4"
+      },
+      "Degree_notes": "Roseworthy Diploma of Agriculture awarded March 1920.",
+      "Educational_institution__": {
+        "@id": "#expertnation_46"
+      },
+      "Degree___qualification___courses": "Roseworthy Diploma in Agriculture RDA",
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student Register",
+      "Scholarshipa_and_Awards": {
+        "@id": "#expertnation_53"
+      }
+    },
+    {
+      "@id": "#expertnation_59",
+      "name": "Cornford H.W. : Resigned from teaching service",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_3"
+      },
+      "Type_of_event": "Resigned from teaching service",
+      "Sources": "National Library of Australia (incl. Trove Newspapers)",
+      "Source_Details_free_text": "RETIREMENTS (1960, July 22). Government Gazette of the State of New South Wales (Sydney, NSW : 1901 - 2001), p. 2326. Retrieved April 5, 2018, from http://nla.gov.au/nla.news-article220314515"
+    },
+    {
+      "@id": "#expertnation_12",
+      "name": "McNeil W.G. : Birth - @ Melbourne [ VIC Australia ]",
+      "@type": "Eventlet",
+      "Person__": {
+        "@id": "#expertnation_6"
+      },
+      "Type_of_event": "Birth",
+      "Place": {
+        "@id": "#expertnation_13"
+      },
+      "Sources": "National Archives of Australia (incl. Discovering Anzacs)",
+      "Source_Details_free_text": "Service Record \nNAA: B2455, MCNEIL W G, Series number: B2455, Barcode: 1957862, Title: McNeil Willam George : SERN DEPOT S15783"
+    },
+    {
+      "@id": "#expertnation_28",
+      "name": "Pappinbarra Public School, Pappinbarra, NSW, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "Pappinbarra Public School",
+      "Place": {
+        "@id": "#expertnation_36"
+      }
+    },
+    {
+      "@id": "#expertnation_44",
+      "name": "McLean D.R. : Science, South Australian School of Mines and Industries",
+      "@type": "Tertiary study",
+      "Parent_record__person_": {
+        "@id": "#expertnation_5"
+      },
+      "Degree___qualification___courses": "Science",
+      "Educational_institution__": {
+        "@id": "#expertnation_47"
+      },
+      "Was_the_degree_completed_": "No",
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student record"
+    },
+    {
+      "@id": "#expertnation_60",
+      "name": "Cobham R.S. : Death",
+      "@type": "Death",
+      "Person__": {
+        "@id": "#expertnation_1"
+      },
+      "Sources": "Other",
+      "Source_Details_free_text": "https://www.geni.com/people/Roger-Cobham/6000000025003980385"
+    },
+    {
+      "@id": "#expertnation_29",
+      "name": "Prince Alfred College, Adelaide, SA, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "Prince Alfred College",
+      "Place": {
+        "@id": "#expertnation_37"
+      }
+    },
+    {
+      "@id": "#expertnation_45",
+      "name": "McNeil W.G. : Agr.Sci., Roseworthy Agricultural College",
+      "@type": "Tertiary study",
+      "Source_info___additional_notes": "Mr McNeil left his studies to enlist in the Australian Army during the First World War.",
+      "Parent_record__person_": {
+        "@id": "#expertnation_6"
+      },
+      "Degree___qualification___courses": "Agr.Sci.",
+      "Educational_institution__": {
+        "@id": "#expertnation_46"
+      },
+      "Was_the_degree_completed_": "No",
+      "Sources": "University of Adelaide Archives",
+      "Source_Details_free_text": "Student Record"
+    },
+    {
+      "@id": "#expertnation_61",
+      "name": "Grieve A.C. : Death Unknown @ Naracoorte [ SA Australia ]",
+      "@type": "Death",
+      "Notes": "Date of interment, not death",
+      "Person__": {
+        "@id": "#expertnation_4"
+      },
+      "Place": {
+        "@id": "#expertnation_14"
+      },
+      "Mode_of_death": "Unknown",
+      "Sources": "Other",
+      "Source_Details_free_text": "http://www.naracoortelucindale.sa.gov.au/page.aspx?u=616&c=43457"
+    },
+    {
+      "@id": "#expertnation_30",
+      "name": "St Andrew, Naracoorte, SA, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "St Andrew",
+      "Place": {
+        "@id": "#expertnation_14"
+      }
+    },
+    {
+      "@id": "#expertnation_46",
+      "name": "Roseworthy Agricultural College, Roseworthy, SA, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "Roseworthy Agricultural College",
+      "Place": {
+        "@id": "#expertnation_51"
+      }
+    },
+    {
+      "@id": "#expertnation_31",
+      "name": "St Patrick's College, Ballarat, VIC, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "St Patrick's College",
+      "Place": {
+        "@id": "#expertnation_33"
+      }
+    },
+    {
+      "@id": "#expertnation_47",
+      "name": "South Australian School of Mines and Industries, Adelaide, SA, Australia",
+      "@type": "Educational institution",
+      "Name_of_institution": "South Australian School of Mines and Industries",
+      "Country": "Australia",
+      "Place": {
+        "@id": "#expertnation_50"
+      }
+    },
+    {
+      "@id": "ulf_7_D2011 55157  Roseworthy College Student Card - Alexander Clayhills GRIEVE.pdf",
+      "@type": "File",
+      "encodingFormat": [
+        "application/pdf"
+      ],
+      "fileSize": ""
+    },
+    {
+      "@id": "#expertnation_64",
+      "name": "StudentCard-Grieve-AC [ pdf ]",
+      "@type": "Digital media item",
+      "Media_item_title": "StudentCard-Grieve-AC",
+      "hasFile": {
+        "@id": "ulf_7_D2011 55157  Roseworthy College Student Card - Alexander Clayhills GRIEVE.pdf"
+      },
+      "File_extension": "pdf",
+      "Document_category": "Student Card"
+    },
+    {
+      "@id": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 ",
+      "@type": "File",
+      "encodingFormat": [
+        "application/octet-stream"
+      ],
+      "fileSize": ""
+    },
+    {
+      "@id": "#expertnation_65",
+      "name": "War Service Record-Grieve-AC [ pdf ]",
+      "@type": "Digital media item",
+      "Media_item_title": "War Service Record-Grieve-AC",
+      "hasFile": {
+        "@id": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 "
+      },
+      "Short_summary___description": "23 pages, enlistment form and medical examination.",
+      "Copyright_information___URL": "NAA\nB2455, Grieve AC, Barcode 4711508.",
+      "File_extension": "pdf",
+      "Document_category": "War Service Record"
+    },
+    {
+      "@id": "http://hdl.handle.net/2440/62721",
+      "@type": "File",
+      "encodingFormat": [
+        "application/octet-stream"
+      ],
+      "fileSize": ""
+    },
+    {
+      "@id": "#expertnation_62",
+      "name": "1919-20 Roseworthy Students [ jpeg ]",
+      "@type": "Digital media item",
+      "Media_item_title": "1919-20 Roseworthy Students",
+      "Document_category": "Photograph of person",
+      "hasFile": {
+        "@id": "http://hdl.handle.net/2440/62721"
+      },
+      "Short_summary___description": "Black and white photo, mounted with names",
+      "Copyright_information___URL": "University of Adelaide Archives Series 986 - Roseworthy Agricultural College Photographs, 1896-2005, Box 31",
+      "File_extension": "jpeg"
+    },
+    {
+      "@id": "ulf_6_SC Mclean, Donald Robert.JPG",
+      "@type": "File",
+      "encodingFormat": [
+        "image/jpeg"
+      ],
+      "fileSize": ""
+    },
+    {
+      "@id": "#expertnation_63",
+      "name": "Student Card [ jpg ]",
+      "@type": "Digital media item",
+      "Media_item_title": "Student Card",
+      "hasFile": {
+        "@id": "ulf_6_SC Mclean, Donald Robert.JPG"
+      },
+      "File_extension": "jpg",
+      "Document_category": "Student Card"
+    },
+    {
+      "@id": "#expertnation_53",
+      "name": "Government Scholarship (StudBioID)",
+      "@type": "Scholarship awards",
+      "Award___scholarship_name": "Government Scholarship",
+      "Type_of_award": "Scholarship"
+    },
+    {
+      "@id": "#expertnation_1",
+      "name": "Cobham, R.S. (Roger Synnot)",
+      "@type": "Person",
+      "Family_name": "Cobham",
+      "Given_name_s_": "Roger Synnot",
+      "Gender": "Male",
+      "Initials": "R.S.",
+      "Death": {
+        "@id": "#expertnation_60"
+      },
+      "Tertiary_education": {
+        "@id": "#expertnation_39"
+      },
+      "Birth": {
+        "@id": "#expertnation_7"
+      },
+      "Discovering_Anzacs": "https://discoveringanzacs.naa.gov.au/browse/records/231809",
+      "Flag_BoR_OCR_text": "No",
+      "Basic_Information_needed": "No",
+      "Occupations": {
+        "@id": "#expertnation_66"
+      },
+      "University_connections": "UAdelaide",
+      "Survived": "Survived"
+    },
+    {
+      "@id": "#expertnation_2",
+      "name": "Colgan, T.D. (Thomas Dominic)",
+      "@type": "Person",
+      "Family_name": "Colgan",
+      "Given_name_s_": "Thomas Dominic",
+      "Initials": "T.D.",
+      "OCRd_book_entry_or_other_narrative": "Not listed in the Book of Remembrance or Sydney Teacher's College Rolls. He enlisted in March 1917 and served with the 6th A.L.H. Regiment and at Amman with 2nd M.G. Squadron. Wounded at Amman 28th March 1918 and invalided to hospital. Was demobilised in August 1919. Joined Sydney Teacher's College in 1920.",
+      "Early_education": {
+        "@id": "#expertnation_20"
+      },
+      "Tertiary_education": {
+        "@id": "#expertnation_40"
+      },
+      "Birth": {
+        "@id": "#expertnation_8"
+      },
+      "Occupations": {
+        "@id": "#expertnation_67"
+      },
+      "Other_events": {
+        "@id": "#expertnation_57"
+      },
+      "Discovering_Anzacs": "http://discoveringanzacs.naa.gov.au/browse/records/236647",
+      "University_connections": "Sydney Teachers College",
+      "Gender": "Male",
+      "Basic_Information_needed": "No",
+      "Flag_BoR_OCR_text": "No",
+      "Survived": "Survived"
+    },
+    {
+      "@id": "#expertnation_3",
+      "name": "Cornford, H.W. (Harold Walton)",
+      "@type": "Person",
+      "Family_name": "Cornford",
+      "Given_name_s_": "Harold Walton",
+      "Gender": "Male",
+      "Initials": "H.W.",
+      "Other_events": {
+        "@id": "#expertnation_59"
+      },
+      "Early_education": {
+        "@id": "#expertnation_21"
+      },
+      "Tertiary_education": {
+        "@id": "#expertnation_41"
+      },
+      "Birth": {
+        "@id": "#expertnation_9"
+      },
+      "Discovering_Anzacs": "https://discoveringanzacs.naa.gov.au/browse/records/480020",
+      "Flag_BoR_OCR_text": "No",
+      "OCRd_book_entry_or_other_narrative": "Not listed in the Book of Remembrance or Sydney Teacher's College Rolls. Enlisted 4th January 1915, and joined H.M.A. Training ship \"Tingira\". Sailed as Boy 1st Class on H.M.A.S. \"Encounter\". Served at Fantome Una, Melbourne, Brisbane, Marguerite, Platypus, Destroyer Flotilla, Sydney and Sleuth. Tookk part in the Malekula punitive Expedition. Was demobilised 31st December, 1924. Rejoined Teaching Service and mobilised as Petty Officer in Charge of Communications convoy.",
+      "Basic_Information_needed": "No",
+      "Occupations": {
+        "@id": "#expertnation_70"
+      },
+      "University_connections": "Sydney Teachers College",
+      "Survived": "Survived"
+    },
+    {
+      "@id": "ulf_4_photo.JPG",
+      "@type": "File",
+      "encodingFormat": [
+        "image/jpeg"
+      ],
+      "fileSize": ""
+    },
+    {
+      "@id": "#expertnation_4",
+      "name": "Grieve, A.C. (Alexander Clayhills)",
+      "@type": "Person",
+      "Family_name": "Grieve",
+      "Short_description": "Upon graduation, Mr Grieve was active in Naracoorte.1920 he was raising sheep; in 1924 he was working with the firm of DeGaris, livestock agents in Naracoorte. In 1930 he sold his property and livestock,but throughout 1930s and beyond,he was offering livestock and sheep wool for sale. He operated from Naracoorte. He was also active in Golf and the Caledonian Society. Source - Trove digitised newspapers.",
+      "Narrative": "Finance Committee 1918-19, RAC\n1938 - Committee member, South Eastern Sub-branch, Roseworthy Old Collegian' Association",
+      "Given_name_s_": "Alexander Clayhills",
+      "Gender": "Male",
+      "hasFile": {
+        "@id": "ulf_4_photo.JPG"
+      },
+      "Initials": "A.C.",
+      "Early_education": {
+        "@id": "#expertnation_23"
+      },
+      "University_role": "Office Bearer",
+      "Military_service": {
+        "@id": "#expertnation_54"
+      },
+      "Death": {
+        "@id": "#expertnation_61"
+      },
+      "Tertiary_education": {
+        "@id": "#expertnation_43"
+      },
+      "Birth": {
+        "@id": "#expertnation_10"
+      },
+      "Religion": "Presbyterian",
+      "Australian_War_Memorial": "https://vwma.org.au/explore/people/606645",
+      "Additional_photograph_s_": {
+        "@id": "#expertnation_62"
+      },
+      "Documents": {
+        "@id": "#expertnation_65"
+      },
+      "Occupations": {
+        "@id": "#expertnation_72"
+      },
+      "University_connections": "UAdelaide",
+      "Survived": "Survived"
+    },
+    {
+      "@id": "#expertnation_5",
+      "name": "McLean, D.R. (Donald Robert)",
+      "@type": "Person",
+      "Family_name": "McLean",
+      "Given_name_s_": "Donald Robert",
+      "Gender": "Male",
+      "Initials": "D.R.",
+      "Military_service": {
+        "@id": "#expertnation_55"
+      },
+      "Tertiary_education": {
+        "@id": "#expertnation_44"
+      },
+      "Birth": {
+        "@id": "#expertnation_11"
+      },
+      "Flag_BoR_OCR_text": "No",
+      "Documents": {
+        "@id": "#expertnation_63"
+      },
+      "Basic_Information_needed": "No",
+      "University_connections": "UAdelaide",
+      "Survived": "Survived"
+    },
+    {
+      "@id": "#expertnation_6",
+      "name": "McNeil, W.G. (William George)",
+      "@type": "Person",
+      "Family_name": "McNeil",
+      "Given_name_s_": "William George",
+      "Gender": "Male",
+      "Initials": "W.G.",
+      "Early_education": {
+        "@id": "#expertnation_24"
+      },
+      "Military_service": {
+        "@id": "#expertnation_56"
+      },
+      "Tertiary_education": {
+        "@id": "#expertnation_45"
+      },
+      "Birth": {
+        "@id": "#expertnation_12"
+      },
+      "Discovering_Anzacs": "https://discoveringanzacs.naa.gov.au/browse/records/111206",
+      "Other_URLs": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=1957862",
+      "Occupations": {
+        "@id": "#expertnation_73"
+      },
+      "University_connections": "UAdelaide",
+      "Survived": "Survived"
+    },
+    {
+      "@id": "#expertnation_16",
+      "name": "Victoria [ VIC Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Victoria",
+      "City__State__Province_or_Region": "VIC",
+      "Country": "Australia",
+      "Locational_certainty": "1. High confidence",
+      "Accuracy": "7. To ADM1 eg. state, province, county"
+    },
+    {
+      "@id": "#expertnation_33",
+      "name": "Ballarat [ VIC Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Ballarat",
+      "City__State__Province_or_Region": "VIC",
+      "Country": "Australia",
+      "Locational_certainty": "4. Uncertain"
+    },
+    {
+      "@id": "#expertnation_34",
+      "name": "Gannon's Creek [ NSW Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Gannon's Creek",
+      "City__State__Province_or_Region": "NSW",
+      "Country": "Australia",
+      "Locational_certainty": "4. Uncertain"
+    },
+    {
+      "@id": "#expertnation_50",
+      "name": "Adelaide [ SA Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Adelaide",
+      "City__State__Province_or_Region": "SA",
+      "Country": "Australia",
+      "Locational_certainty": "1. High confidence",
+      "Excel_ID": "68",
+      "Geo_Source": "Yahoo",
+      "Accuracy": "3. To named locality",
+      "Latitude__original_info_": "-34.926102",
+      "Longitude__original_info_": "138.599884"
+    },
+    {
+      "@id": "#expertnation_35",
+      "name": "Huntington [ NSW Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Huntington",
+      "City__State__Province_or_Region": "NSW",
+      "Country": "Australia",
+      "Locational_certainty": "4. Uncertain"
+    },
+    {
+      "@id": "#expertnation_51",
+      "name": "Roseworthy Agricultural College : Roseworthy [ SA Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Roseworthy",
+      "City__State__Province_or_Region": "SA",
+      "Country": "Australia",
+      "Locational_certainty": "1. High confidence",
+      "Locality_name": "Roseworthy Agricultural College",
+      "Geo_Source": "GE",
+      "Accuracy": "3. To named locality"
+    },
+    {
+      "@id": "#expertnation_36",
+      "name": "Pappinbarra [ NSW Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Pappinbarra",
+      "City__State__Province_or_Region": "NSW",
+      "Country": "Australia",
+      "Locational_certainty": "4. Uncertain"
+    },
+    {
+      "@id": "#expertnation_52",
+      "name": "University of Sydney : Camperdown [ NSW Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Camperdown",
+      "City__State__Province_or_Region": "NSW",
+      "Excel_ID": "49",
+      "Locality_name": "University of Sydney",
+      "Country": "Australia",
+      "Accuracy": "3. To named locality",
+      "Locational_certainty": "1. High confidence",
+      "Geo_Source": "Yahoo"
+    },
+    {
+      "@id": "#expertnation_37",
+      "name": "Prince Alfred College : Adelaide [ SA Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Adelaide",
+      "City__State__Province_or_Region": "SA",
+      "Country": "Australia",
+      "Locational_certainty": "1. High confidence",
+      "Locality_name": "Prince Alfred College",
+      "Accuracy": "3. To named locality"
+    },
+    {
+      "@id": "#expertnation_38",
+      "name": "The Junction [ NSW Australia ]",
+      "@type": "Place 2",
+      "Place_name": "The Junction",
+      "City__State__Province_or_Region": "NSW",
+      "Country": "Australia",
+      "Locational_certainty": "4. Uncertain"
+    },
+    {
+      "@id": "#expertnation_27",
+      "name": "Newcastle High School",
+      "@type": "Educational institution",
+      "Name_of_institution": "Newcastle High School",
+      "City": "Newcastle",
+      "State": "NSW",
+      "Country": "Australia"
+    },
+    {
+      "@id": "#expertnation_13",
+      "name": "Melbourne [ VIC Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Melbourne",
+      "City__State__Province_or_Region": "VIC",
+      "Country": "Australia",
+      "Locational_certainty": "4. Uncertain",
+      "Excel_ID": "74",
+      "Geo_Source": "Yahoo",
+      "Accuracy": "3. To named locality",
+      "Latitude__original_info_": "-37.817532",
+      "Longitude__original_info_": "144.967148"
+    },
+    {
+      "@id": "#expertnation_14",
+      "name": "Naracoorte [ SA Australia ]",
+      "@type": "Place 2",
+      "Place_name": "Naracoorte",
+      "City__State__Province_or_Region": "SA",
+      "Country": "Australia",
+      "Locational_certainty": "1. High confidence",
+      "Accuracy": "3. To named locality"
+    },
+    {
+      "@id": "#expertnation_15",
+      "name": "New Zealand [ New Zealand ]",
+      "@type": "Place 2",
+      "Place_name": "New Zealand",
+      "Country": "New Zealand",
+      "Excel_ID": "1086",
+      "Geo_Source": "Yahoo",
+      "Accuracy": "Left blank",
+      "Latitude__original_info_": "-41.802714",
+      "Longitude__original_info_": "172.868332"
+    }
+  ]
+}
