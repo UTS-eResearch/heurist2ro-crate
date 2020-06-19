@@ -20,167 +20,35 @@
       "name": "ExpertNation Fragment RO-Crate demo",
       "hasMember": [
         {
-          "@id": "#expertnation_32"
+          "@id": "#Person"
         },
         {
-          "@id": "#expertnation_48"
+          "@id": "#Place"
         },
         {
-          "@id": "#expertnation_17"
-        },
-        {
-          "@id": "#expertnation_49"
-        },
-        {
-          "@id": "#expertnation_18"
-        },
-        {
-          "@id": "#expertnation_66"
-        },
-        {
-          "@id": "#expertnation_19"
-        },
-        {
-          "@id": "#expertnation_67"
-        },
-        {
-          "@id": "#expertnation_20"
-        },
-        {
-          "@id": "#expertnation_68"
-        },
-        {
-          "@id": "#expertnation_21"
-        },
-        {
-          "@id": "#expertnation_69"
-        },
-        {
-          "@id": "#expertnation_22"
-        },
-        {
-          "@id": "#expertnation_54"
-        },
-        {
-          "@id": "#expertnation_70"
-        },
-        {
-          "@id": "#expertnation_7"
-        },
-        {
-          "@id": "#expertnation_23"
-        },
-        {
-          "@id": "#expertnation_39"
-        },
-        {
-          "@id": "#expertnation_55"
-        },
-        {
-          "@id": "#expertnation_71"
-        },
-        {
-          "@id": "#expertnation_8"
-        },
-        {
-          "@id": "#expertnation_24"
-        },
-        {
-          "@id": "#expertnation_40"
-        },
-        {
-          "@id": "#expertnation_56"
-        },
-        {
-          "@id": "#expertnation_72"
-        },
-        {
-          "@id": "#expertnation_9"
-        },
-        {
-          "@id": "#expertnation_25"
-        },
-        {
-          "@id": "#expertnation_41"
-        },
-        {
-          "@id": "#expertnation_57"
-        },
-        {
-          "@id": "#expertnation_73"
-        },
-        {
-          "@id": "#expertnation_10"
-        },
-        {
-          "@id": "#expertnation_26"
-        },
-        {
-          "@id": "#expertnation_42"
-        },
-        {
-          "@id": "#expertnation_58"
-        },
-        {
-          "@id": "#expertnation_74"
-        },
-        {
-          "@id": "#expertnation_11"
-        },
-        {
-          "@id": "#expertnation_43"
-        },
-        {
-          "@id": "#expertnation_59"
-        },
-        {
-          "@id": "#expertnation_12"
-        },
-        {
-          "@id": "#expertnation_28"
-        },
-        {
-          "@id": "#expertnation_44"
-        },
-        {
-          "@id": "#expertnation_60"
-        },
-        {
-          "@id": "#expertnation_29"
-        },
-        {
-          "@id": "#expertnation_45"
-        },
-        {
-          "@id": "#expertnation_61"
-        },
-        {
-          "@id": "#expertnation_30"
-        },
-        {
-          "@id": "#expertnation_46"
-        },
-        {
-          "@id": "#expertnation_31"
-        },
-        {
-          "@id": "#expertnation_47"
-        },
-        {
-          "@id": "#expertnation_64"
-        },
-        {
-          "@id": "#expertnation_65"
-        },
-        {
-          "@id": "#expertnation_62"
-        },
-        {
-          "@id": "#expertnation_63"
-        },
-        {
-          "@id": "#expertnation_53"
-        },
+          "@id": "#EducationalOrganization"
+        }
+      ],
+      "@reverse": {
+        "about": [
+          {
+            "@id": "ro-crate-metadata.jsonld"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "identifier": "ro-crate-metadata.jsonld"
+    },
+    {
+      "@id": "#Person",
+      "name": "Collection: Person",
+      "hasMember": [
         {
           "@id": "#expertnation_1"
         },
@@ -198,7 +66,18 @@
         },
         {
           "@id": "#expertnation_6"
-        },
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "./"
+        }
+      ]
+    },
+    {
+      "@id": "#Place",
+      "name": "Collection: Place",
+      "hasMember": [
         {
           "@id": "#expertnation_16"
         },
@@ -230,9 +109,6 @@
           "@id": "#expertnation_38"
         },
         {
-          "@id": "#expertnation_27"
-        },
-        {
           "@id": "#expertnation_13"
         },
         {
@@ -242,33 +118,70 @@
           "@id": "#expertnation_15"
         }
       ],
-      "@reverse": {
-        "about": [
-          {
-            "@id": "ro-crate-metadata.jsonld"
-          }
-        ]
-      }
+      "memberOf": [
+        {
+          "@id": "./"
+        }
+      ]
     },
     {
-      "@id": "ro-crate-metadata.jsonld",
-      "@type": "CreativeWork",
-      "about": {
-        "@id": "./"
-      },
-      "identifier": "ro-crate-metadata.jsonld"
+      "@id": "#EducationalOrganization",
+      "name": "Collection: EducationalOrganization",
+      "hasMember": [
+        {
+          "@id": "#expertnation_32"
+        },
+        {
+          "@id": "#expertnation_48"
+        },
+        {
+          "@id": "#expertnation_49"
+        },
+        {
+          "@id": "#expertnation_25"
+        },
+        {
+          "@id": "#expertnation_26"
+        },
+        {
+          "@id": "#expertnation_28"
+        },
+        {
+          "@id": "#expertnation_29"
+        },
+        {
+          "@id": "#expertnation_30"
+        },
+        {
+          "@id": "#expertnation_46"
+        },
+        {
+          "@id": "#expertnation_31"
+        },
+        {
+          "@id": "#expertnation_47"
+        },
+        {
+          "@id": "#expertnation_27"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "./"
+        }
+      ]
     },
     {
       "@id": "#expertnation_32",
       "name": "The Junction Public School, The Junction, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "The Junction Public School",
       "Place": {
         "@id": "#expertnation_38"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -282,14 +195,14 @@
     {
       "@id": "#expertnation_48",
       "name": "Sydney Teacher's College, Camperdown, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Sydney Teacher's College",
       "Place": {
         "@id": "#expertnation_52"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -314,24 +227,19 @@
         "@id": "#expertnation_25"
       },
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff card - 171"
     },
     {
       "@id": "#expertnation_49",
       "name": "University of Sydney, Camperdown, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "University of Sydney",
       "Place": {
         "@id": "#expertnation_52"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -353,17 +261,12 @@
         "@id": "#expertnation_26"
       },
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff card - 171"
     },
     {
       "@id": "#expertnation_66",
       "name": "Cobham R.S. : Share-Farmer",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_1"
       },
@@ -371,11 +274,6 @@
       "Sector": "Agricultural,Pastoral,Forestry and Fishery",
       "Sources": "National Library of Australia (incl. Trove Newspapers)",
       "Source_Details_free_text": "HIS THREE ADDRESSES (1935, October 18). The Murrumbidgee Irrigator (Leeton, NSW : 1915 - 1954), p. 1. Retrieved May 28, 2018, from http://nla.gov.au/nla.news-article156026713",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Occupations": [
           {
@@ -395,17 +293,12 @@
         "@id": "#expertnation_28"
       },
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff card - 171"
     },
     {
       "@id": "#expertnation_67",
       "name": "Colgan T.D. : Headmaster",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_2"
       },
@@ -413,11 +306,6 @@
       "Occupation_title": "Headmaster",
       "Sources": "State Records NSW",
       "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Occupations": [
           {
@@ -438,11 +326,6 @@
       },
       "Sources": "State Records NSW",
       "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Early_education": [
           {
@@ -454,19 +337,14 @@
     {
       "@id": "#expertnation_68",
       "name": "Colgan T.D. : Teacher",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_2"
       },
       "Sector": "Education-Primary & Secondary",
       "Occupation_title": "Teacher",
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff card - 171"
     },
     {
       "@id": "#expertnation_21",
@@ -480,11 +358,6 @@
       },
       "Sources": "not recorded",
       "Source_Details_free_text": "n/a",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Early_education": [
           {
@@ -496,19 +369,14 @@
     {
       "@id": "#expertnation_69",
       "name": "Cornford H.W. : Assistant Teacher",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_3"
       },
       "Sector": "Education-Primary & Secondary",
       "Occupation_title": "Assistant Teacher",
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff cards WWI - 191",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
     },
     {
       "@id": "#expertnation_22",
@@ -521,17 +389,12 @@
         "@id": "#expertnation_32"
       },
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff cards WWI - 191",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
     },
     {
       "@id": "#expertnation_54",
       "name": "Grieve A.C. : Enlisted",
-      "@type": "Military service",
+      "@type": "Military_service",
       "Parent_record__person_": {
         "@id": "#expertnation_4"
       },
@@ -539,11 +402,6 @@
       "Type_of_event": "Enlisted",
       "Sources": "National Archives of Australia (incl. Discovering Anzacs)",
       "Short__description": "Mr Grieve enlisted on 4/11/1918. 2 weeks later he was discharged. \nNot assigned to any unit.",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Military_service": [
           {
@@ -555,7 +413,7 @@
     {
       "@id": "#expertnation_70",
       "name": "Cornford H.W. : Teacher",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_3"
       },
@@ -563,11 +421,6 @@
       "Sector": "Education-Primary & Secondary",
       "Sources": "National Library of Australia (incl. Trove Newspapers)",
       "Source_Details_free_text": "TEACHERS IN CAMP (1939, November 15). The Cumberland Argus and Fruitgrowers Advocate (Parramatta, NSW : 1888 - 1950), p. 2. Retrieved April 5, 2018, from http://nla.gov.au/nla.news-article106201064",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Occupations": [
           {
@@ -589,11 +442,6 @@
       },
       "Sources": "Other",
       "Source_Details_free_text": "https://www.geni.com/people/Roger-Cobham/6000000025003980385",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Birth": [
           {
@@ -614,11 +462,6 @@
       },
       "Sources": "National Library of Australia (incl. Trove Newspapers)",
       "Source_Details_free_text": "1917 'ROSEWORTHY COLLEGE SCHOLARSHIPS.', The Register (Adelaide, SA : 1901 - 1929), 17 April, p. 4. , viewed 17 Jul 2017, http://nla.gov.au/nla.news-article59973899",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Early_education": [
           {
@@ -630,7 +473,7 @@
     {
       "@id": "#expertnation_39",
       "name": "Cobham R.S. : Agricultural Science, Roseworthy Agricultural College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_1"
       },
@@ -641,11 +484,6 @@
       "Was_the_degree_completed_": "No",
       "Sources": "University of Adelaide Archives",
       "Source_Details_free_text": "Student record",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Tertiary_education": [
           {
@@ -657,18 +495,13 @@
     {
       "@id": "#expertnation_55",
       "name": "McLean D.R. : Enlisted",
-      "@type": "Military service",
+      "@type": "Military_service",
       "Parent_record__person_": {
         "@id": "#expertnation_5"
       },
       "Type_of_event": "Enlisted",
       "Sources": "not recorded",
       "Source_Details_free_text": "n/a",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Military_service": [
           {
@@ -680,7 +513,7 @@
     {
       "@id": "#expertnation_71",
       "name": "Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_4"
       },
@@ -692,12 +525,7 @@
       "Notes": "From 1920 onwards, Mr Grieve stationed himself at Naracoorte. He had a property and raised sheep for wool. In 1930 his farm and livestock was offered for sale. in 1935, the Roseworthy magazine reported he was residing in Naracoorte. In 1938 the Student magazine reported he had a property in Naracoorte. His farming activities were disrupted in 1940 when he enlisted to serve in the army. His farm and animals were offered up to sale in 1940. Post WWII, he probably resumed sheep raising, there was newspaper advertisement of merino wool for sale from his farm at Naracoorte.",
       "Sector": "Agricultural,Pastoral,Forestry and Fishery",
       "Occupation_title": "Sheep Farmer",
-      "Sources": "National Library of Australia (incl. Trove Newspapers)",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Sources": "National Library of Australia (incl. Trove Newspapers)"
     },
     {
       "@id": "#expertnation_8",
@@ -709,11 +537,6 @@
       "Type_of_event": "Birth",
       "Sources": "State Records NSW",
       "Source_Details_free_text": "Dept Education staff cards - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Birth": [
           {
@@ -735,11 +558,6 @@
       },
       "Sources": "National Library of Australia (incl. Trove Newspapers)",
       "Source_Details_free_text": "1914 'SPEECH DAYS.', The Journal (Adelaide, SA : 1912 - 1923), 18 December, p. 4. (4 P.M. EDITION), viewed 05 Feb 2019, http://nla.gov.au/nla.news-article210041380",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Early_education": [
           {
@@ -751,7 +569,7 @@
     {
       "@id": "#expertnation_40",
       "name": "Colgan T.D. : Education, Sydney Teacher's College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_2"
       },
@@ -762,11 +580,6 @@
       "Was_the_degree_completed_": "Unknown 2",
       "Sources": "State Records NSW",
       "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Tertiary_education": [
           {
@@ -778,7 +591,7 @@
     {
       "@id": "#expertnation_56",
       "name": "McNeil W.G. : Enlisted: Private",
-      "@type": "Military service",
+      "@type": "Military_service",
       "Short__description": "Private McNeil joined the AIF but was discharged a month later, reason was cessation of hostility.",
       "Parent_record__person_": {
         "@id": "#expertnation_6"
@@ -788,11 +601,6 @@
       "Force_or_Unit": "A.I.F. Depots",
       "Sources": "Australian War Memorial",
       "Source_Details_free_text": "Service Record \nNAA: B2455, MCNEIL W G, Series number: B2455, Barcode: 1957862, Title: McNeil Willam George : SERN DEPOT S15783",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Military_service": [
           {
@@ -804,7 +612,7 @@
     {
       "@id": "#expertnation_72",
       "name": "Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_4"
       },
@@ -817,11 +625,6 @@
       "Sector": "Agricultural,Pastoral,Forestry and Fishery",
       "Occupation_title": "Stock Agent",
       "Sources": "University of Adelaide Archives",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Occupations": [
           {
@@ -840,11 +643,6 @@
       "Type_of_event": "Birth",
       "Sources": "State Records NSW",
       "Source_Details_free_text": "Dept Education staff cards WWI - 191",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Birth": [
           {
@@ -856,14 +654,14 @@
     {
       "@id": "#expertnation_25",
       "name": "Gannon's Creek Public School, Gannon's Creek, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Gannon's Creek Public School",
       "Place": {
         "@id": "#expertnation_34"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -877,7 +675,7 @@
     {
       "@id": "#expertnation_41",
       "name": "Cornford H.W. : Arts, University of Sydney",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_3"
       },
@@ -888,11 +686,6 @@
       "Degree___qualification___courses": "Arts",
       "Was_the_degree_completed_": "Unknown 2",
       "Sources": "State Records NSW",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Tertiary_education": [
           {
@@ -911,11 +704,6 @@
       "Type_of_event": "Enlisted",
       "Sources": "State Records NSW",
       "Source_Details_free_text": "Dept Education staff card - 171",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Other_events": [
           {
@@ -927,7 +715,7 @@
     {
       "@id": "#expertnation_73",
       "name": "McNeil W.G. : Manager",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_6"
       },
@@ -936,11 +724,6 @@
       "Original_occupation_text": "Warehouse manager",
       "Sources": "University of Adelaide Archives",
       "Source_Details_free_text": "Student card",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Occupations": [
           {
@@ -962,11 +745,6 @@
       },
       "Sources": "University of Adelaide Archives",
       "Source_Details_free_text": "Student Card",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Birth": [
           {
@@ -978,14 +756,14 @@
     {
       "@id": "#expertnation_26",
       "name": "Huntington Public School, Huntington, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Huntington Public School",
       "Place": {
         "@id": "#expertnation_35"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -999,7 +777,7 @@
     {
       "@id": "#expertnation_42",
       "name": "Cornford H.W. : Education, Sydney Teacher's College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_3"
       },
@@ -1009,12 +787,7 @@
       "Degree___qualification___courses": "Education",
       "Was_the_degree_completed_": "Unknown 2",
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff cards WWI - 191",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
     },
     {
       "@id": "#expertnation_58",
@@ -1025,26 +798,16 @@
       },
       "Type_of_event": "Enlisted",
       "Sources": "State Records NSW",
-      "Source_Details_free_text": "Dept Education staff cards WWI - 191",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Source_Details_free_text": "Dept Education staff cards WWI - 191"
     },
     {
       "@id": "#expertnation_74",
       "name": "IsSiblingOf : >> Cobham, R.S. (Roger Synnot)",
-      "@type": "Record relationship",
+      "@type": "Record_relationship",
       "Relationship_type": "IsSiblingOf",
       "Target_record": {
         "@id": "#expertnation_1"
-      },
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      }
     },
     {
       "@id": "#expertnation_11",
@@ -1059,11 +822,6 @@
       },
       "Sources": "University of Adelaide Archives",
       "Source_Details_free_text": "Student record",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Birth": [
           {
@@ -1075,7 +833,7 @@
     {
       "@id": "#expertnation_43",
       "name": "Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_4"
       },
@@ -1089,11 +847,6 @@
       "Scholarshipa_and_Awards": {
         "@id": "#expertnation_53"
       },
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Tertiary_education": [
           {
@@ -1112,11 +865,6 @@
       "Type_of_event": "Resigned from teaching service",
       "Sources": "National Library of Australia (incl. Trove Newspapers)",
       "Source_Details_free_text": "RETIREMENTS (1960, July 22). Government Gazette of the State of New South Wales (Sydney, NSW : 1901 - 2001), p. 2326. Retrieved April 5, 2018, from http://nla.gov.au/nla.news-article220314515",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Other_events": [
           {
@@ -1138,11 +886,6 @@
       },
       "Sources": "National Archives of Australia (incl. Discovering Anzacs)",
       "Source_Details_free_text": "Service Record \nNAA: B2455, MCNEIL W G, Series number: B2455, Barcode: 1957862, Title: McNeil Willam George : SERN DEPOT S15783",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Birth": [
           {
@@ -1154,14 +897,14 @@
     {
       "@id": "#expertnation_28",
       "name": "Pappinbarra Public School, Pappinbarra, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Pappinbarra Public School",
       "Place": {
         "@id": "#expertnation_36"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -1175,7 +918,7 @@
     {
       "@id": "#expertnation_44",
       "name": "McLean D.R. : Science, South Australian School of Mines and Industries",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_5"
       },
@@ -1186,11 +929,6 @@
       "Was_the_degree_completed_": "No",
       "Sources": "University of Adelaide Archives",
       "Source_Details_free_text": "Student record",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Tertiary_education": [
           {
@@ -1208,11 +946,6 @@
       },
       "Sources": "Other",
       "Source_Details_free_text": "https://www.geni.com/people/Roger-Cobham/6000000025003980385",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Death": [
           {
@@ -1224,14 +957,14 @@
     {
       "@id": "#expertnation_29",
       "name": "Prince Alfred College, Adelaide, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Prince Alfred College",
       "Place": {
         "@id": "#expertnation_37"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -1245,7 +978,7 @@
     {
       "@id": "#expertnation_45",
       "name": "McNeil W.G. : Agr.Sci., Roseworthy Agricultural College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Source_info___additional_notes": "Mr McNeil left his studies to enlist in the Australian Army during the First World War.",
       "Parent_record__person_": {
         "@id": "#expertnation_6"
@@ -1257,11 +990,6 @@
       "Was_the_degree_completed_": "No",
       "Sources": "University of Adelaide Archives",
       "Source_Details_free_text": "Student Record",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Tertiary_education": [
           {
@@ -1284,11 +1012,6 @@
       "Mode_of_death": "Unknown",
       "Sources": "Other",
       "Source_Details_free_text": "http://www.naracoortelucindale.sa.gov.au/page.aspx?u=616&c=43457",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Death": [
           {
@@ -1300,14 +1023,14 @@
     {
       "@id": "#expertnation_30",
       "name": "St Andrew, Naracoorte, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "St Andrew",
       "Place": {
         "@id": "#expertnation_14"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -1321,14 +1044,14 @@
     {
       "@id": "#expertnation_46",
       "name": "Roseworthy Agricultural College, Roseworthy, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Roseworthy Agricultural College",
       "Place": {
         "@id": "#expertnation_51"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -1348,14 +1071,14 @@
     {
       "@id": "#expertnation_31",
       "name": "St Patrick's College, Ballarat, VIC, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "St Patrick's College",
       "Place": {
         "@id": "#expertnation_33"
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -1369,7 +1092,7 @@
     {
       "@id": "#expertnation_47",
       "name": "South Australian School of Mines and Industries, Adelaide, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "South Australian School of Mines and Industries",
       "Country": "Australia",
       "Place": {
@@ -1377,7 +1100,7 @@
       },
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -1404,18 +1127,13 @@
     {
       "@id": "#expertnation_64",
       "name": "StudentCard-Grieve-AC [ pdf ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "StudentCard-Grieve-AC",
       "hasFile": {
         "@id": "ulf_7_D2011 55157  Roseworthy College Student Card - Alexander Clayhills GRIEVE.pdf"
       },
       "File_extension": "pdf",
-      "Document_category": "Student Card",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ]
+      "Document_category": "Student Card"
     },
     {
       "@id": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 ",
@@ -1433,7 +1151,7 @@
     {
       "@id": "#expertnation_65",
       "name": "War Service Record-Grieve-AC [ pdf ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "War Service Record-Grieve-AC",
       "hasFile": {
         "@id": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 "
@@ -1442,11 +1160,6 @@
       "Copyright_information___URL": "NAA\nB2455, Grieve AC, Barcode 4711508.",
       "File_extension": "pdf",
       "Document_category": "War Service Record",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Documents": [
           {
@@ -1471,7 +1184,7 @@
     {
       "@id": "#expertnation_62",
       "name": "1919-20 Roseworthy Students [ jpeg ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "1919-20 Roseworthy Students",
       "Document_category": "Photograph of person",
       "hasFile": {
@@ -1480,11 +1193,6 @@
       "Short_summary___description": "Black and white photo, mounted with names",
       "Copyright_information___URL": "University of Adelaide Archives Series 986 - Roseworthy Agricultural College Photographs, 1896-2005, Box 31",
       "File_extension": "jpeg",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Additional_photograph_s_": [
           {
@@ -1509,18 +1217,13 @@
     {
       "@id": "#expertnation_63",
       "name": "Student Card [ jpg ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "Student Card",
       "hasFile": {
         "@id": "ulf_6_SC Mclean, Donald Robert.JPG"
       },
       "File_extension": "jpg",
       "Document_category": "Student Card",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Documents": [
           {
@@ -1532,14 +1235,9 @@
     {
       "@id": "#expertnation_53",
       "name": "Government Scholarship (StudBioID)",
-      "@type": "Scholarship awards",
+      "@type": "Scholarship_awards",
       "Award___scholarship_name": "Government Scholarship",
       "Type_of_award": "Scholarship",
-      "memberOf": [
-        {
-          "@id": "./"
-        }
-      ],
       "@reverse": {
         "Scholarshipa_and_Awards": [
           {
@@ -1575,7 +1273,7 @@
       "Survived": "Survived",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Person"
         }
       ],
       "@reverse": {
@@ -1633,7 +1331,7 @@
       "Survived": "Survived",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Person"
         }
       ],
       "@reverse": {
@@ -1701,7 +1399,7 @@
       "Survived": "Survived",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Person"
         }
       ],
       "@reverse": {
@@ -1795,7 +1493,7 @@
       "Survived": "Survived",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Person"
         }
       ],
       "@reverse": {
@@ -1852,7 +1550,7 @@
       "Survived": "Survived",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Person"
         }
       ],
       "@reverse": {
@@ -1900,7 +1598,7 @@
       "Survived": "Survived",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Person"
         }
       ],
       "@reverse": {
@@ -1928,7 +1626,7 @@
     {
       "@id": "#expertnation_16",
       "name": "Victoria [ VIC Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Victoria",
       "City__State__Province_or_Region": "VIC",
       "Country": "Australia",
@@ -1936,7 +1634,7 @@
       "Accuracy": "7. To ADM1 eg. state, province, county",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -1950,14 +1648,14 @@
     {
       "@id": "#expertnation_33",
       "name": "Ballarat [ VIC Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Ballarat",
       "City__State__Province_or_Region": "VIC",
       "Country": "Australia",
       "Locational_certainty": "4. Uncertain",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -1971,14 +1669,14 @@
     {
       "@id": "#expertnation_34",
       "name": "Gannon's Creek [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Gannon's Creek",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
       "Locational_certainty": "4. Uncertain",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -1992,7 +1690,7 @@
     {
       "@id": "#expertnation_50",
       "name": "Adelaide [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Adelaide",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -2004,7 +1702,7 @@
       "Longitude__original_info_": "138.599884",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2018,14 +1716,14 @@
     {
       "@id": "#expertnation_35",
       "name": "Huntington [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Huntington",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
       "Locational_certainty": "4. Uncertain",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2039,7 +1737,7 @@
     {
       "@id": "#expertnation_51",
       "name": "Roseworthy Agricultural College : Roseworthy [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Roseworthy",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -2049,7 +1747,7 @@
       "Accuracy": "3. To named locality",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2063,14 +1761,14 @@
     {
       "@id": "#expertnation_36",
       "name": "Pappinbarra [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Pappinbarra",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
       "Locational_certainty": "4. Uncertain",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2084,7 +1782,7 @@
     {
       "@id": "#expertnation_52",
       "name": "University of Sydney : Camperdown [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Camperdown",
       "City__State__Province_or_Region": "NSW",
       "Excel_ID": "49",
@@ -2095,7 +1793,7 @@
       "Geo_Source": "Yahoo",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2112,7 +1810,7 @@
     {
       "@id": "#expertnation_37",
       "name": "Prince Alfred College : Adelaide [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Adelaide",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -2121,7 +1819,7 @@
       "Accuracy": "3. To named locality",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2135,14 +1833,14 @@
     {
       "@id": "#expertnation_38",
       "name": "The Junction [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "The Junction",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
       "Locational_certainty": "4. Uncertain",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2156,14 +1854,14 @@
     {
       "@id": "#expertnation_27",
       "name": "Newcastle High School",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Newcastle High School",
       "City": "Newcastle",
       "State": "NSW",
       "Country": "Australia",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#EducationalOrganization"
         }
       ],
       "@reverse": {
@@ -2177,7 +1875,7 @@
     {
       "@id": "#expertnation_13",
       "name": "Melbourne [ VIC Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Melbourne",
       "City__State__Province_or_Region": "VIC",
       "Country": "Australia",
@@ -2189,7 +1887,7 @@
       "Longitude__original_info_": "144.967148",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2203,7 +1901,7 @@
     {
       "@id": "#expertnation_14",
       "name": "Naracoorte [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Naracoorte",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -2211,7 +1909,7 @@
       "Accuracy": "3. To named locality",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2237,7 +1935,7 @@
     {
       "@id": "#expertnation_15",
       "name": "New Zealand [ New Zealand ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "New Zealand",
       "Country": "New Zealand",
       "Excel_ID": "1086",
@@ -2247,7 +1945,7 @@
       "Longitude__original_info_": "172.868332",
       "memberOf": [
         {
-          "@id": "./"
+          "@id": "#Place"
         }
       ],
       "@reverse": {
@@ -2313,26 +2011,11 @@ table.table {
 
 
 <div id="summary">
-<div><h3></h3><table class="table metadata table-striped" id="./"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>ExpertNation Fragment RO-Crate demo</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Dataset</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">about<span>&#xA0;</span><a href="http://schema.org/about">[?]</a></th><td style="text-align:left"> <a href="#ro-crate-metadata.jsonld">ro-crate-metadata.jsonld</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Description</th><td style="text-align:left"> <span>Test export of Heurist converted to RO-Crate</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasMember<span>&#xA0;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th><td style="text-align:left"> <details style="margin-left: 3%"><summary><a href="##expertnation_32">The Junction Public School, The Junction, NSW, Australia</a><span>--to--</span><a href="##expertnation_64">StudentCard-Grieve-AC [ pdf ]</a></summary><ul><li><a href="##expertnation_32">The Junction Public School, The Junction, NSW, Australia</a></li><li><a href="##expertnation_48">Sydney Teacher&apos;s College, Camperdown, NSW, Australia</a></li><li><a href="##expertnation_17">Colgan T.D. : Gannon&apos;s Creek Public School</a></li><li><a href="##expertnation_49">University of Sydney, Camperdown, NSW, Australia</a></li><li><a href="##expertnation_18">Colgan T.D. : Huntington Public School</a></li><li><a href="##expertnation_66">Cobham R.S. : Share-Farmer</a></li><li><a href="##expertnation_19">Colgan T.D. : Pappinbarra Public School</a></li><li><a href="##expertnation_67">Colgan T.D. : Headmaster</a></li><li><a href="##expertnation_20">Colgan T.D. : St Patrick&apos;s College</a></li><li><a href="##expertnation_68">Colgan T.D. : Teacher</a></li><li><a href="##expertnation_21">Cornford H.W. : Newcastle High School</a></li><li><a href="##expertnation_69">Cornford H.W. : Assistant Teacher</a></li><li><a href="##expertnation_22">Cornford H.W. : The Junction Public School</a></li><li><a href="##expertnation_54">Grieve A.C. : Enlisted</a></li><li><a href="##expertnation_70">Cornford H.W. : Teacher</a></li><li><a href="##expertnation_7">Cobham R.S. : Birth - @ New Zealand [ New Zealand ]</a></li><li><a href="##expertnation_23">Grieve A.C. : St Andrew</a></li><li><a href="##expertnation_39">Cobham R.S. : Agricultural Science, Roseworthy Agricultural College</a></li><li><a href="##expertnation_55">McLean D.R. : Enlisted</a></li><li><a href="##expertnation_71">Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_8">Colgan T.D. : Birth</a></li><li><a href="##expertnation_24">McNeil W.G. : Prince Alfred College</a></li><li><a href="##expertnation_40">Colgan T.D. : Education, Sydney Teacher&apos;s College</a></li><li><a href="##expertnation_56">McNeil W.G. : Enlisted: Private</a></li><li><a href="##expertnation_72">Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_9">Cornford H.W. : Birth</a></li><li><a href="##expertnation_25">Gannon&apos;s Creek Public School, Gannon&apos;s Creek, NSW, Australia</a></li><li><a href="##expertnation_41">Cornford H.W. : Arts, University of Sydney</a></li><li><a href="##expertnation_57">Colgan T.D. : Enlisted</a></li><li><a href="##expertnation_73">McNeil W.G. : Manager</a></li><li><a href="##expertnation_10">Grieve A.C. : Birth - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_26">Huntington Public School, Huntington, NSW, Australia</a></li><li><a href="##expertnation_42">Cornford H.W. : Education, Sydney Teacher&apos;s College</a></li><li><a href="##expertnation_58">Cornford H.W. : Enlisted</a></li><li><a href="##expertnation_74">IsSiblingOf : &gt;&gt; Cobham, R.S. (Roger Synnot)</a></li><li><a href="##expertnation_11">McLean D.R. : Birth - @ Victoria [ VIC Australia ]</a></li><li><a href="##expertnation_43">Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College</a></li><li><a href="##expertnation_59">Cornford H.W. : Resigned from teaching service</a></li><li><a href="##expertnation_12">McNeil W.G. : Birth - @ Melbourne [ VIC Australia ]</a></li><li><a href="##expertnation_28">Pappinbarra Public School, Pappinbarra, NSW, Australia</a></li><li><a href="##expertnation_44">McLean D.R. : Science, South Australian School of Mines and Industries</a></li><li><a href="##expertnation_60">Cobham R.S. : Death</a></li><li><a href="##expertnation_29">Prince Alfred College, Adelaide, SA, Australia</a></li><li><a href="##expertnation_45">McNeil W.G. : Agr.Sci., Roseworthy Agricultural College</a></li><li><a href="##expertnation_61">Grieve A.C. : Death Unknown @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_30">St Andrew, Naracoorte, SA, Australia</a></li><li><a href="##expertnation_46">Roseworthy Agricultural College, Roseworthy, SA, Australia</a></li><li><a href="##expertnation_31">St Patrick&apos;s College, Ballarat, VIC, Australia</a></li><li><a href="##expertnation_47">South Australian School of Mines and Industries, Adelaide, SA, Australia</a></li><li><a href="##expertnation_64">StudentCard-Grieve-AC [ pdf ]</a></li></ul></details><details style="margin-left: 3%"><summary><a href="##expertnation_65">War Service Record-Grieve-AC [ pdf ]</a><span>--to--</span><a href="##expertnation_15">New Zealand [ New Zealand ]</a></summary><ul><li><a href="##expertnation_65">War Service Record-Grieve-AC [ pdf ]</a></li><li><a href="##expertnation_62">1919-20 Roseworthy Students [ jpeg ]</a></li><li><a href="##expertnation_63">Student Card [ jpg ]</a></li><li><a href="##expertnation_53">Government Scholarship (StudBioID)</a></li><li><a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></li><li><a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></li><li><a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></li><li><a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></li><li><a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></li><li><a href="##expertnation_6">McNeil, W.G. (William George)</a></li><li><a href="##expertnation_16">Victoria [ VIC Australia ]</a></li><li><a href="##expertnation_33">Ballarat [ VIC Australia ]</a></li><li><a href="##expertnation_34">Gannon&apos;s Creek [ NSW Australia ]</a></li><li><a href="##expertnation_50">Adelaide [ SA Australia ]</a></li><li><a href="##expertnation_35">Huntington [ NSW Australia ]</a></li><li><a href="##expertnation_51">Roseworthy Agricultural College : Roseworthy [ SA Australia ]</a></li><li><a href="##expertnation_36">Pappinbarra [ NSW Australia ]</a></li><li><a href="##expertnation_52">University of Sydney : Camperdown [ NSW Australia ]</a></li><li><a href="##expertnation_37">Prince Alfred College : Adelaide [ SA Australia ]</a></li><li><a href="##expertnation_38">The Junction [ NSW Australia ]</a></li><li><a href="##expertnation_27">Newcastle High School</a></li><li><a href="##expertnation_13">Melbourne [ VIC Australia ]</a></li><li><a href="##expertnation_14">Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_15">New Zealand [ New Zealand ]</a></li></ul></details></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_32"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>The Junction Public School, The Junction, NSW, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_22">Cornford H.W. : The Junction Public School</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>The Junction Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_38">The Junction [ NSW Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_48"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Sydney Teacher&apos;s College, Camperdown, NSW, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <ul><li><a href="##expertnation_40">Colgan T.D. : Education, Sydney Teacher&apos;s College</a></li><li><a href="##expertnation_42">Cornford H.W. : Education, Sydney Teacher&apos;s College</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Sydney Teacher&apos;s College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_52">University of Sydney : Camperdown [ NSW Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_17"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Gannon&apos;s Creek Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_25">Gannon&apos;s Creek Public School, Gannon&apos;s Creek, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_49"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>University of Sydney, Camperdown, NSW, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_41">Cornford H.W. : Arts, University of Sydney</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>University of Sydney</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_52">University of Sydney : Camperdown [ NSW Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_18"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Huntington Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_26">Huntington Public School, Huntington, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_66"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cobham R.S. : Share-Farmer</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Share-Farmer</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Agricultural,Pastoral,Forestry and Fishery</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Library of Australia (incl. Trove Newspapers)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>HIS THREE ADDRESSES (1935, October 18). The Murrumbidgee Irrigator (Leeton, NSW : 1915 - 1954), p. 1. Retrieved May 28, 2018, from http://nla.gov.au/nla.news-article156026713</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_19"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Pappinbarra Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_28">Pappinbarra Public School, Pappinbarra, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_67"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Headmaster</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Education-Primary &amp; Secondary</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Headmaster</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_20"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : St Patrick&apos;s College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_31">St Patrick&apos;s College, Ballarat, VIC, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_68"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Teacher</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Education-Primary &amp; Secondary</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Teacher</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_21"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Newcastle High School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_27">Newcastle High School</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>not recorded</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>n/a</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_69"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Assistant Teacher</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Education-Primary &amp; Secondary</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Assistant Teacher</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards WWI - 191</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_22"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : The Junction Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_32">The Junction Public School, The Junction, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards WWI - 191</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_54"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Military service</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Military_service</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>NAA
-https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Archives of Australia (incl. Discovering Anzacs)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Short__description</th><td style="text-align:left"> <span>Mr Grieve enlisted on 4/11/1918. 2 weeks later he was discharged. 
-Not assigned to any unit.</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_70"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Teacher</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Teacher</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Education-Primary &amp; Secondary</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Library of Australia (incl. Trove Newspapers)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>TEACHERS IN CAMP (1939, November 15). The Cumberland Argus and Fruitgrowers Advocate (Parramatta, NSW : 1888 - 1950), p. 2. Retrieved April 5, 2018, from http://nla.gov.au/nla.news-article106201064</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_7"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cobham R.S. : Birth - @ New Zealand [ New Zealand ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_15">New Zealand [ New Zealand ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>Other</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <a href="https://www.geni.com/people/Roger-Cobham/6000000025003980385">https://www.geni.com/people/Roger-Cobham/6000000025003980385</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_23"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : St Andrew</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_30">St Andrew, Naracoorte, SA, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Library of Australia (incl. Trove Newspapers)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>1917 &apos;ROSEWORTHY COLLEGE SCHOLARSHIPS.&apos;, The Register (Adelaide, SA : 1901 - 1929), 17 April, p. 4. , viewed 17 Jul 2017, http://nla.gov.au/nla.news-article59973899</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_39"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cobham R.S. : Agricultural Science, Roseworthy Agricultural College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Agricultural Science</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_46">Roseworthy Agricultural College, Roseworthy, SA, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Was_the_degree_completed_</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student record</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_55"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McLean D.R. : Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Military service</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Military_service</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>not recorded</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>n/a</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_71"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Original_occupation_text</th><td style="text-align:left"> <span>Sheep-raising in Naracoorte</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_14">Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>University of Adelaide Archives Series 1020 - &apos;The Student&apos; Magazine of Roseworthy Agricultural College, 1897-1988: 
--Vol 20 No 1 July 1920, http://hdl.handle.net/2440/74013
-
--Vol 34 No1 1938, p 86, http://hdl.handle.net/2440/74196 
-
-NLA, TROVE1930, http://nla.gov.au/nla.news-article147073394
-NLA TROVE 1940 http://nla.gov.au/nla.news-article147035469
-NLA TROVE 1946 http://nla.gov.au/nla.news-article200109331</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Notes</th><td style="text-align:left"> <span>From 1920 onwards, Mr Grieve stationed himself at Naracoorte. He had a property and raised sheep for wool. In 1930 his farm and livestock was offered for sale. in 1935, the Roseworthy magazine reported he was residing in Naracoorte. In 1938 the Student magazine reported he had a property in Naracoorte. His farming activities were disrupted in 1940 when he enlisted to serve in the army. His farm and animals were offered up to sale in 1940. Post WWII, he probably resumed sheep raising, there was newspaper advertisement of merino wool for sale from his farm at Naracoorte.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Agricultural,Pastoral,Forestry and Fishery</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Sheep Farmer</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Library of Australia (incl. Trove Newspapers)</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_8"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_24"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McNeil W.G. : Prince Alfred College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Schooling</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Notes_about_schoolng</th><td style="text-align:left"> <span>Passed Royal society Drawing Examination 1914</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_29">Prince Alfred College, Adelaide, SA, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Library of Australia (incl. Trove Newspapers)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>1914 &apos;SPEECH DAYS.&apos;, The Journal (Adelaide, SA : 1912 - 1923), 18 December, p. 4. (4 P.M. EDITION), viewed 05 Feb 2019, http://nla.gov.au/nla.news-article210041380</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_40"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Education, Sydney Teacher&apos;s College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_48">Sydney Teacher&apos;s College, Camperdown, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Education</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Was_the_degree_completed_</th><td style="text-align:left"> <span>Unknown 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_56"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McNeil W.G. : Enlisted: Private</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Military service</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Military_service</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Short__description</th><td style="text-align:left"> <span>Private McNeil joined the AIF but was discharged a month later, reason was cessation of hostility.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Rank</th><td style="text-align:left"> <span>Private</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Force_or_Unit</th><td style="text-align:left"> <span>A.I.F. Depots</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>Australian War Memorial</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Service Record 
-NAA: B2455, MCNEIL W G, Series number: B2455, Barcode: 1957862, Title: McNeil Willam George : SERN DEPOT S15783</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_72"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Original_occupation_text</th><td style="text-align:left"> <span>&quot;with the firm of De Garis &amp; Sons, stock agents, Naracoorte.&quot;</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>University of Adelaide Archives Series 1020 - &apos;The Student&apos; Magazine of Roseworthy Agricultural College, 1897-1988, Vol 23 No 1 March 1924
-http://hdl.handle.net/2440/74017</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_14">Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Notes</th><td style="text-align:left"> <span>Todate, the firm is still trading as &quot;DeGaris&quot;  in Naracoorte livestock exchange, see http://www.farmweekly.com.au/classifiedsimages/full/17665611.pdf</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Agricultural,Pastoral,Forestry and Fishery</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Stock Agent</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_9"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards WWI - 191</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_25"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Gannon&apos;s Creek Public School, Gannon&apos;s Creek, NSW, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_17">Colgan T.D. : Gannon&apos;s Creek Public School</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Gannon&apos;s Creek Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_34">Gannon&apos;s Creek [ NSW Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_41"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Arts, University of Sydney</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_49">University of Sydney, Camperdown, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards WWI - 191
-No mention of which university degree.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Arts</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Was_the_degree_completed_</th><td style="text-align:left"> <span>Unknown 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_57"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan T.D. : Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Other_events</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff card - 171</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_73"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McNeil W.G. : Manager</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Occupation eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupation_title</th><td style="text-align:left"> <span>Manager</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sector</th><td style="text-align:left"> <span>Unknown</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Original_occupation_text</th><td style="text-align:left"> <span>Warehouse manager</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student card</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_10"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : Birth - @ Naracoorte [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_14">Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student Card</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_26"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Huntington Public School, Huntington, NSW, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_18">Colgan T.D. : Huntington Public School</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Huntington Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_35">Huntington [ NSW Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_42"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Education, Sydney Teacher&apos;s College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_48">Sydney Teacher&apos;s College, Camperdown, NSW, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Education</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Was_the_degree_completed_</th><td style="text-align:left"> <span>Unknown 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards WWI - 191</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_58"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Enlisted</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>State Records NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Dept Education staff cards WWI - 191</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_74"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>IsSiblingOf : &gt;&gt; Cobham, R.S. (Roger Synnot)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Record relationship</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Relationship_type</th><td style="text-align:left"> <span>IsSiblingOf</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Target_record</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_11"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McLean D.R. : Birth - @ Victoria [ VIC Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_16">Victoria [ VIC Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student record</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_43"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree_notes</th><td style="text-align:left"> <span>Roseworthy Diploma of Agriculture awarded March 1920.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_46">Roseworthy Agricultural College, Roseworthy, SA, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Roseworthy Diploma in Agriculture RDA</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student Register</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Scholarshipa_and_Awards</th><td style="text-align:left"> <a href="##expertnation_53">Government Scholarship (StudBioID)</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_59"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford H.W. : Resigned from teaching service</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Other_events</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Resigned from teaching service</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Library of Australia (incl. Trove Newspapers)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>RETIREMENTS (1960, July 22). Government Gazette of the State of New South Wales (Sydney, NSW : 1901 - 2001), p. 2326. Retrieved April 5, 2018, from http://nla.gov.au/nla.news-article220314515</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_12"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McNeil W.G. : Birth - @ Melbourne [ VIC Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Eventlet</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_event</th><td style="text-align:left"> <span>Birth</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_13">Melbourne [ VIC Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>National Archives of Australia (incl. Discovering Anzacs)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Service Record 
-NAA: B2455, MCNEIL W G, Series number: B2455, Barcode: 1957862, Title: McNeil Willam George : SERN DEPOT S15783</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_28"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Pappinbarra Public School, Pappinbarra, NSW, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_19">Colgan T.D. : Pappinbarra Public School</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Pappinbarra Public School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_36">Pappinbarra [ NSW Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_44"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McLean D.R. : Science, South Australian School of Mines and Industries</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Science</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_47">South Australian School of Mines and Industries, Adelaide, SA, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Was_the_degree_completed_</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student record</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_60"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cobham R.S. : Death</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Death</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Death</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>Other</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <a href="https://www.geni.com/people/Roger-Cobham/6000000025003980385">https://www.geni.com/people/Roger-Cobham/6000000025003980385</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_29"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Prince Alfred College, Adelaide, SA, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_24">McNeil W.G. : Prince Alfred College</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Prince Alfred College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_37">Prince Alfred College : Adelaide [ SA Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_45"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McNeil W.G. : Agr.Sci., Roseworthy Agricultural College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Tertiary study</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_info___additional_notes</th><td style="text-align:left"> <span>Mr McNeil left his studies to enlist in the Australian Army during the First World War.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_6">McNeil, W.G. (William George)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Degree___qualification___courses</th><td style="text-align:left"> <span>Agr.Sci.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_46">Roseworthy Agricultural College, Roseworthy, SA, Australia</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Was_the_degree_completed_</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>University of Adelaide Archives</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <span>Student Record</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_61"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve A.C. : Death Unknown @ Naracoorte [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Death</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Death</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Notes</th><td style="text-align:left"> <span>Date of interment, not death</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_14">Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mode_of_death</th><td style="text-align:left"> <span>Unknown</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Sources</th><td style="text-align:left"> <span>Other</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Source_Details_free_text</th><td style="text-align:left"> <a href="http://www.naracoortelucindale.sa.gov.au/page.aspx?u=616&amp;c=43457">http://www.naracoortelucindale.sa.gov.au/page.aspx?u=616&amp;c=43457</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_30"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>St Andrew, Naracoorte, SA, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_23">Grieve A.C. : St Andrew</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>St Andrew</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_14">Naracoorte [ SA Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_46"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Roseworthy Agricultural College, Roseworthy, SA, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <ul><li><a href="##expertnation_39">Cobham R.S. : Agricultural Science, Roseworthy Agricultural College</a></li><li><a href="##expertnation_43">Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College</a></li><li><a href="##expertnation_45">McNeil W.G. : Agr.Sci., Roseworthy Agricultural College</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Roseworthy Agricultural College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_51">Roseworthy Agricultural College : Roseworthy [ SA Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_31"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>St Patrick&apos;s College, Ballarat, VIC, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_20">Colgan T.D. : St Patrick&apos;s College</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>St Patrick&apos;s College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_33">Ballarat [ VIC Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_47"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>South Australian School of Mines and Industries, Adelaide, SA, Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Educational_institution__</th><td style="text-align:left"> <a href="##expertnation_44">McLean D.R. : Science, South Australian School of Mines and Industries</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>South Australian School of Mines and Industries</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_50">Adelaide [ SA Australia ]</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_64"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>StudentCard-Grieve-AC [ pdf ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Digital media item</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Media_item_title</th><td style="text-align:left"> <span>StudentCard-Grieve-AC</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasFile<span>&#xA0;</span><a href="http://pcdm.org/models#hasFile">[?]</a></th><td style="text-align:left"> <a href="#ulf_7_D2011 55157  Roseworthy College Student Card - Alexander Clayhills GRIEVE.pdf">ulf_7_D2011 55157  Roseworthy College Student Card - Alexander Clayhills GRIEVE.pdf</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">File_extension</th><td style="text-align:left"> <span>pdf</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Document_category</th><td style="text-align:left"> <span>Student Card</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_65"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>War Service Record-Grieve-AC [ pdf ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Digital media item</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Documents</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Media_item_title</th><td style="text-align:left"> <span>War Service Record-Grieve-AC</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasFile<span>&#xA0;</span><a href="http://pcdm.org/models#hasFile">[?]</a></th><td style="text-align:left"> <a href="#https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 ">https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 </a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Short_summary___description</th><td style="text-align:left"> <span>23 pages, enlistment form and medical examination.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Copyright_information___URL</th><td style="text-align:left"> <span>NAA
-B2455, Grieve AC, Barcode 4711508.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">File_extension</th><td style="text-align:left"> <span>pdf</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Document_category</th><td style="text-align:left"> <span>War Service Record</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_62"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>1919-20 Roseworthy Students [ jpeg ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Digital media item</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Additional_photograph_s_</th><td style="text-align:left"> <a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Media_item_title</th><td style="text-align:left"> <span>1919-20 Roseworthy Students</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Document_category</th><td style="text-align:left"> <span>Photograph of person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasFile<span>&#xA0;</span><a href="http://pcdm.org/models#hasFile">[?]</a></th><td style="text-align:left"> <a href="#http://hdl.handle.net/2440/62721">http://hdl.handle.net/2440/62721</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Short_summary___description</th><td style="text-align:left"> <span>Black and white photo, mounted with names</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Copyright_information___URL</th><td style="text-align:left"> <span>University of Adelaide Archives Series 986 - Roseworthy Agricultural College Photographs, 1896-2005, Box 31</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">File_extension</th><td style="text-align:left"> <span>jpeg</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_63"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Student Card [ jpg ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Digital media item</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Documents</th><td style="text-align:left"> <a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Media_item_title</th><td style="text-align:left"> <span>Student Card</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasFile<span>&#xA0;</span><a href="http://pcdm.org/models#hasFile">[?]</a></th><td style="text-align:left"> <a href="#ulf_6_SC Mclean, Donald Robert.JPG">ulf_6_SC Mclean, Donald Robert.JPG</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">File_extension</th><td style="text-align:left"> <span>jpg</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Document_category</th><td style="text-align:left"> <span>Student Card</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_53"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Government Scholarship (StudBioID)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Scholarship awards</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Scholarshipa_and_Awards</th><td style="text-align:left"> <a href="##expertnation_43">Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Award___scholarship_name</th><td style="text-align:left"> <span>Government Scholarship</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Type_of_award</th><td style="text-align:left"> <span>Scholarship</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_1"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cobham, R.S. (Roger Synnot)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <ul><li><a href="##expertnation_66">Cobham R.S. : Share-Farmer</a></li><li><a href="##expertnation_7">Cobham R.S. : Birth - @ New Zealand [ New Zealand ]</a></li><li><a href="##expertnation_60">Cobham R.S. : Death</a></li></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <a href="##expertnation_39">Cobham R.S. : Agricultural Science, Roseworthy Agricultural College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Target_record</th><td style="text-align:left"> <a href="##expertnation_74">IsSiblingOf : &gt;&gt; Cobham, R.S. (Roger Synnot)</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Family_name</th><td style="text-align:left"> <span>Cobham</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Given_name_s_</th><td style="text-align:left"> <span>Roger Synnot</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Gender</th><td style="text-align:left"> <span>Male</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Initials</th><td style="text-align:left"> <span>R.S.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Death</th><td style="text-align:left"> <a href="##expertnation_60">Cobham R.S. : Death</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_39">Cobham R.S. : Agricultural Science, Roseworthy Agricultural College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_7">Cobham R.S. : Birth - @ New Zealand [ New Zealand ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Discovering_Anzacs</th><td style="text-align:left"> <a href="https://discoveringanzacs.naa.gov.au/browse/records/231809">https://discoveringanzacs.naa.gov.au/browse/records/231809</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Flag_BoR_OCR_text</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Basic_Information_needed</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_66">Cobham R.S. : Share-Farmer</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_connections</th><td style="text-align:left"> <span>UAdelaide</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Survived</th><td style="text-align:left"> <span>Survived</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_2"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Colgan, T.D. (Thomas Dominic)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <ul><li><a href="##expertnation_17">Colgan T.D. : Gannon&apos;s Creek Public School</a></li><li><a href="##expertnation_18">Colgan T.D. : Huntington Public School</a></li><li><a href="##expertnation_19">Colgan T.D. : Pappinbarra Public School</a></li><li><a href="##expertnation_20">Colgan T.D. : St Patrick&apos;s College</a></li><li><a href="##expertnation_40">Colgan T.D. : Education, Sydney Teacher&apos;s College</a></li></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <ul><li><a href="##expertnation_67">Colgan T.D. : Headmaster</a></li><li><a href="##expertnation_68">Colgan T.D. : Teacher</a></li><li><a href="##expertnation_8">Colgan T.D. : Birth</a></li><li><a href="##expertnation_57">Colgan T.D. : Enlisted</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Family_name</th><td style="text-align:left"> <span>Colgan</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Given_name_s_</th><td style="text-align:left"> <span>Thomas Dominic</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Initials</th><td style="text-align:left"> <span>T.D.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">OCRd_book_entry_or_other_narrative</th><td style="text-align:left"> <span>Not listed in the Book of Remembrance or Sydney Teacher&apos;s College Rolls. He enlisted in March 1917 and served with the 6th A.L.H. Regiment and at Amman with 2nd M.G. Squadron. Wounded at Amman 28th March 1918 and invalided to hospital. Was demobilised in August 1919. Joined Sydney Teacher&apos;s College in 1920.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_20">Colgan T.D. : St Patrick&apos;s College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_40">Colgan T.D. : Education, Sydney Teacher&apos;s College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_8">Colgan T.D. : Birth</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_67">Colgan T.D. : Headmaster</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Other_events</th><td style="text-align:left"> <a href="##expertnation_57">Colgan T.D. : Enlisted</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Discovering_Anzacs</th><td style="text-align:left"> <a href="http://discoveringanzacs.naa.gov.au/browse/records/236647">http://discoveringanzacs.naa.gov.au/browse/records/236647</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_connections</th><td style="text-align:left"> <span>Sydney Teachers College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Gender</th><td style="text-align:left"> <span>Male</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Basic_Information_needed</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Flag_BoR_OCR_text</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Survived</th><td style="text-align:left"> <span>Survived</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_3"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Cornford, H.W. (Harold Walton)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <ul><li><a href="##expertnation_21">Cornford H.W. : Newcastle High School</a></li><li><a href="##expertnation_22">Cornford H.W. : The Junction Public School</a></li><li><a href="##expertnation_41">Cornford H.W. : Arts, University of Sydney</a></li><li><a href="##expertnation_42">Cornford H.W. : Education, Sydney Teacher&apos;s College</a></li></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <ul><li><a href="##expertnation_69">Cornford H.W. : Assistant Teacher</a></li><li><a href="##expertnation_70">Cornford H.W. : Teacher</a></li><li><a href="##expertnation_9">Cornford H.W. : Birth</a></li><li><a href="##expertnation_58">Cornford H.W. : Enlisted</a></li><li><a href="##expertnation_59">Cornford H.W. : Resigned from teaching service</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Family_name</th><td style="text-align:left"> <span>Cornford</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Given_name_s_</th><td style="text-align:left"> <span>Harold Walton</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Gender</th><td style="text-align:left"> <span>Male</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Initials</th><td style="text-align:left"> <span>H.W.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Other_events</th><td style="text-align:left"> <a href="##expertnation_59">Cornford H.W. : Resigned from teaching service</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_21">Cornford H.W. : Newcastle High School</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_41">Cornford H.W. : Arts, University of Sydney</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_9">Cornford H.W. : Birth</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Discovering_Anzacs</th><td style="text-align:left"> <a href="https://discoveringanzacs.naa.gov.au/browse/records/480020">https://discoveringanzacs.naa.gov.au/browse/records/480020</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Flag_BoR_OCR_text</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">OCRd_book_entry_or_other_narrative</th><td style="text-align:left"> <span>Not listed in the Book of Remembrance or Sydney Teacher&apos;s College Rolls. Enlisted 4th January 1915, and joined H.M.A. Training ship &quot;Tingira&quot;. Sailed as Boy 1st Class on H.M.A.S. &quot;Encounter&quot;. Served at Fantome Una, Melbourne, Brisbane, Marguerite, Platypus, Destroyer Flotilla, Sydney and Sleuth. Tookk part in the Malekula punitive Expedition. Was demobilised 31st December, 1924. Rejoined Teaching Service and mobilised as Petty Officer in Charge of Communications convoy.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Basic_Information_needed</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_70">Cornford H.W. : Teacher</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_connections</th><td style="text-align:left"> <span>Sydney Teachers College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Survived</th><td style="text-align:left"> <span>Survived</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_4"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Grieve, A.C. (Alexander Clayhills)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <ul><li><a href="##expertnation_54">Grieve A.C. : Enlisted</a></li><li><a href="##expertnation_23">Grieve A.C. : St Andrew</a></li><li><a href="##expertnation_43">Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College</a></li></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <ul><li><a href="##expertnation_71">Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_72">Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_10">Grieve A.C. : Birth - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_61">Grieve A.C. : Death Unknown @ Naracoorte [ SA Australia ]</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Family_name</th><td style="text-align:left"> <span>Grieve</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Short_description</th><td style="text-align:left"> <span>Upon graduation, Mr Grieve was active in Naracoorte.1920 he was raising sheep; in 1924 he was working with the firm of DeGaris, livestock agents in Naracoorte. In 1930 he sold his property and livestock,but throughout 1930s and beyond,he was offering livestock and sheep wool for sale. He operated from Naracoorte. He was also active in Golf and the Caledonian Society. Source - Trove digitised newspapers.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Narrative</th><td style="text-align:left"> <span>Finance Committee 1918-19, RAC
-1938 - Committee member, South Eastern Sub-branch, Roseworthy Old Collegian&apos; Association</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Given_name_s_</th><td style="text-align:left"> <span>Alexander Clayhills</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Gender</th><td style="text-align:left"> <span>Male</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasFile<span>&#xA0;</span><a href="http://pcdm.org/models#hasFile">[?]</a></th><td style="text-align:left"> <a href="#ulf_4_photo.JPG">ulf_4_photo.JPG</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Initials</th><td style="text-align:left"> <span>A.C.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_23">Grieve A.C. : St Andrew</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_role</th><td style="text-align:left"> <span>Office Bearer</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Military_service</th><td style="text-align:left"> <a href="##expertnation_54">Grieve A.C. : Enlisted</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Death</th><td style="text-align:left"> <a href="##expertnation_61">Grieve A.C. : Death Unknown @ Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_43">Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_10">Grieve A.C. : Birth - @ Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Religion</th><td style="text-align:left"> <span>Presbyterian</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Australian_War_Memorial</th><td style="text-align:left"> <a href="https://vwma.org.au/explore/people/606645">https://vwma.org.au/explore/people/606645</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Additional_photograph_s_</th><td style="text-align:left"> <a href="##expertnation_62">1919-20 Roseworthy Students [ jpeg ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Documents</th><td style="text-align:left"> <a href="##expertnation_65">War Service Record-Grieve-AC [ pdf ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_72">Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_connections</th><td style="text-align:left"> <span>UAdelaide</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Survived</th><td style="text-align:left"> <span>Survived</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_5"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McLean, D.R. (Donald Robert)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <ul><li><a href="##expertnation_55">McLean D.R. : Enlisted</a></li><li><a href="##expertnation_44">McLean D.R. : Science, South Australian School of Mines and Industries</a></li></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <a href="##expertnation_11">McLean D.R. : Birth - @ Victoria [ VIC Australia ]</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Family_name</th><td style="text-align:left"> <span>McLean</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Given_name_s_</th><td style="text-align:left"> <span>Donald Robert</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Gender</th><td style="text-align:left"> <span>Male</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Initials</th><td style="text-align:left"> <span>D.R.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Military_service</th><td style="text-align:left"> <a href="##expertnation_55">McLean D.R. : Enlisted</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_44">McLean D.R. : Science, South Australian School of Mines and Industries</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_11">McLean D.R. : Birth - @ Victoria [ VIC Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Flag_BoR_OCR_text</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Documents</th><td style="text-align:left"> <a href="##expertnation_63">Student Card [ jpg ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Basic_Information_needed</th><td style="text-align:left"> <span>No</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_connections</th><td style="text-align:left"> <span>UAdelaide</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Survived</th><td style="text-align:left"> <span>Survived</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_6"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>McNeil, W.G. (William George)</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Parent_record__person_</th><td style="text-align:left"> <ul><li><a href="##expertnation_24">McNeil W.G. : Prince Alfred College</a></li><li><a href="##expertnation_56">McNeil W.G. : Enlisted: Private</a></li><li><a href="##expertnation_45">McNeil W.G. : Agr.Sci., Roseworthy Agricultural College</a></li></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Person__</th><td style="text-align:left"> <ul><li><a href="##expertnation_73">McNeil W.G. : Manager</a></li><li><a href="##expertnation_12">McNeil W.G. : Birth - @ Melbourne [ VIC Australia ]</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Family_name</th><td style="text-align:left"> <span>McNeil</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Given_name_s_</th><td style="text-align:left"> <span>William George</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Gender</th><td style="text-align:left"> <span>Male</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Initials</th><td style="text-align:left"> <span>W.G.</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Early_education</th><td style="text-align:left"> <a href="##expertnation_24">McNeil W.G. : Prince Alfred College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Military_service</th><td style="text-align:left"> <a href="##expertnation_56">McNeil W.G. : Enlisted: Private</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Tertiary_education</th><td style="text-align:left"> <a href="##expertnation_45">McNeil W.G. : Agr.Sci., Roseworthy Agricultural College</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Birth</th><td style="text-align:left"> <a href="##expertnation_12">McNeil W.G. : Birth - @ Melbourne [ VIC Australia ]</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Discovering_Anzacs</th><td style="text-align:left"> <a href="https://discoveringanzacs.naa.gov.au/browse/records/111206">https://discoveringanzacs.naa.gov.au/browse/records/111206</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Other_URLs</th><td style="text-align:left"> <a href="https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=1957862">https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=1957862</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">Occupations</th><td style="text-align:left"> <a href="##expertnation_73">McNeil W.G. : Manager</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">University_connections</th><td style="text-align:left"> <span>UAdelaide</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Survived</th><td style="text-align:left"> <span>Survived</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_16"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Victoria [ VIC Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_11">McLean D.R. : Birth - @ Victoria [ VIC Australia ]</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Victoria</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>VIC</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>1. High confidence</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>7. To ADM1 eg. state, province, county</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_33"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Ballarat [ VIC Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_31">St Patrick&apos;s College, Ballarat, VIC, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Ballarat</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>VIC</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>4. Uncertain</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_34"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Gannon&apos;s Creek [ NSW Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_25">Gannon&apos;s Creek Public School, Gannon&apos;s Creek, NSW, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Gannon&apos;s Creek</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>4. Uncertain</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_50"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Adelaide [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_47">South Australian School of Mines and Industries, Adelaide, SA, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Adelaide</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>SA</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>1. High confidence</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Excel_ID</th><td style="text-align:left"> <span>68</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Geo_Source</th><td style="text-align:left"> <span>Yahoo</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>3. To named locality</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Latitude__original_info_</th><td style="text-align:left"> <span>-34.926102</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Longitude__original_info_</th><td style="text-align:left"> <span>138.599884</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_35"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Huntington [ NSW Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_26">Huntington Public School, Huntington, NSW, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Huntington</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>4. Uncertain</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_51"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Roseworthy Agricultural College : Roseworthy [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_46">Roseworthy Agricultural College, Roseworthy, SA, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Roseworthy</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>SA</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>1. High confidence</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locality_name</th><td style="text-align:left"> <span>Roseworthy Agricultural College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Geo_Source</th><td style="text-align:left"> <span>GE</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>3. To named locality</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_36"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Pappinbarra [ NSW Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_28">Pappinbarra Public School, Pappinbarra, NSW, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Pappinbarra</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>4. Uncertain</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_52"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>University of Sydney : Camperdown [ NSW Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <ul><li><a href="##expertnation_48">Sydney Teacher&apos;s College, Camperdown, NSW, Australia</a></li><li><a href="##expertnation_49">University of Sydney, Camperdown, NSW, Australia</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Camperdown</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Excel_ID</th><td style="text-align:left"> <span>49</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locality_name</th><td style="text-align:left"> <span>University of Sydney</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>3. To named locality</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>1. High confidence</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Geo_Source</th><td style="text-align:left"> <span>Yahoo</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_37"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Prince Alfred College : Adelaide [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_29">Prince Alfred College, Adelaide, SA, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Adelaide</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>SA</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>1. High confidence</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locality_name</th><td style="text-align:left"> <span>Prince Alfred College</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>3. To named locality</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_38"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>The Junction [ NSW Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_32">The Junction Public School, The Junction, NSW, Australia</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>The Junction</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>4. Uncertain</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_27"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Newcastle High School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Educational institution</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">School<span>&#xA0;</span><a href="http://schema.org/School">[?]</a></th><td style="text-align:left"> <a href="##expertnation_21">Cornford H.W. : Newcastle High School</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Name_of_institution</th><td style="text-align:left"> <span>Newcastle High School</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City<span>&#xA0;</span><a href="http://schema.org/City">[?]</a></th><td style="text-align:left"> <span>Newcastle</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">State<span>&#xA0;</span><a href="http://schema.org/State">[?]</a></th><td style="text-align:left"> <span>NSW</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_13"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Melbourne [ VIC Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_12">McNeil W.G. : Birth - @ Melbourne [ VIC Australia ]</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Melbourne</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>VIC</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>4. Uncertain</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Excel_ID</th><td style="text-align:left"> <span>74</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Geo_Source</th><td style="text-align:left"> <span>Yahoo</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>3. To named locality</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Latitude__original_info_</th><td style="text-align:left"> <span>-37.817532</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Longitude__original_info_</th><td style="text-align:left"> <span>144.967148</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_14"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Naracoorte [ SA Australia ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <ul><li><a href="##expertnation_71">Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_72">Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_10">Grieve A.C. : Birth - @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_61">Grieve A.C. : Death Unknown @ Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_30">St Andrew, Naracoorte, SA, Australia</a></li></ul></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>Naracoorte</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">City__State__Province_or_Region</th><td style="text-align:left"> <span>SA</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>Australia</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr><tr><th style="white-space: nowrap; width: 1%;">Locational_certainty</th><td style="text-align:left"> <span>1. High confidence</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>3. To named locality</span></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#expertnation_15"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>New Zealand [ New Zealand ]</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Place 2</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">Place<span>&#xA0;</span><a href="http://schema.org/Place">[?]</a></th><td style="text-align:left"> <a href="##expertnation_7">Cobham R.S. : Birth - @ New Zealand [ New Zealand ]</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Place_name</th><td style="text-align:left"> <span>New Zealand</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Country<span>&#xA0;</span><a href="http://schema.org/Country">[?]</a></th><td style="text-align:left"> <span>New Zealand</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Excel_ID</th><td style="text-align:left"> <span>1086</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Geo_Source</th><td style="text-align:left"> <span>Yahoo</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Accuracy</th><td style="text-align:left"> <span>Left blank</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Latitude__original_info_</th><td style="text-align:left"> <span>-41.802714</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Longitude__original_info_</th><td style="text-align:left"> <span>172.868332</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">Mappable_location</th><td style="text-align:left"> <ul></ul></td></tr></tbody></table></div>
+<div><h3></h3><table class="table metadata table-striped" id="./"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>ExpertNation Fragment RO-Crate demo</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Dataset</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">about<span>&#xA0;</span><a href="http://schema.org/about">[?]</a></th><td style="text-align:left"> <a href="#ro-crate-metadata.jsonld">ro-crate-metadata.jsonld</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">Description</th><td style="text-align:left"> <span>Test export of Heurist converted to RO-Crate</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasMember<span>&#xA0;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th><td style="text-align:left"> <ul><li><a href="##Person">Collection: Person</a></li><li><a href="##Place">Collection: Place</a></li><li><a href="##EducationalOrganization">Collection: EducationalOrganization</a></li></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#Person"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Collection: Person</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasMember<span>&#xA0;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th><td style="text-align:left"> <ul><li><a href="##expertnation_1">Cobham, R.S. (Roger Synnot)</a></li><li><a href="##expertnation_2">Colgan, T.D. (Thomas Dominic)</a></li><li><a href="##expertnation_3">Cornford, H.W. (Harold Walton)</a></li><li><a href="##expertnation_4">Grieve, A.C. (Alexander Clayhills)</a></li><li><a href="##expertnation_5">McLean, D.R. (Donald Robert)</a></li><li><a href="##expertnation_6">McNeil, W.G. (William George)</a></li></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#Place"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Collection: Place</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasMember<span>&#xA0;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th><td style="text-align:left"> <ul><li><a href="##expertnation_16">Victoria [ VIC Australia ]</a></li><li><a href="##expertnation_33">Ballarat [ VIC Australia ]</a></li><li><a href="##expertnation_34">Gannon&apos;s Creek [ NSW Australia ]</a></li><li><a href="##expertnation_50">Adelaide [ SA Australia ]</a></li><li><a href="##expertnation_35">Huntington [ NSW Australia ]</a></li><li><a href="##expertnation_51">Roseworthy Agricultural College : Roseworthy [ SA Australia ]</a></li><li><a href="##expertnation_36">Pappinbarra [ NSW Australia ]</a></li><li><a href="##expertnation_52">University of Sydney : Camperdown [ NSW Australia ]</a></li><li><a href="##expertnation_37">Prince Alfred College : Adelaide [ SA Australia ]</a></li><li><a href="##expertnation_38">The Junction [ NSW Australia ]</a></li><li><a href="##expertnation_13">Melbourne [ VIC Australia ]</a></li><li><a href="##expertnation_14">Naracoorte [ SA Australia ]</a></li><li><a href="##expertnation_15">New Zealand [ New Zealand ]</a></li></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#EducationalOrganization"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Collection: EducationalOrganization</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">memberOf<span>&#xA0;</span><a href="http://schema.org/memberOf">[?]</a></th><td style="text-align:left"> <a href="#./">ExpertNation Fragment RO-Crate demo</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasMember<span>&#xA0;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th><td style="text-align:left"> <ul><li><a href="##expertnation_32">The Junction Public School, The Junction, NSW, Australia</a></li><li><a href="##expertnation_48">Sydney Teacher&apos;s College, Camperdown, NSW, Australia</a></li><li><a href="##expertnation_49">University of Sydney, Camperdown, NSW, Australia</a></li><li><a href="##expertnation_25">Gannon&apos;s Creek Public School, Gannon&apos;s Creek, NSW, Australia</a></li><li><a href="##expertnation_26">Huntington Public School, Huntington, NSW, Australia</a></li><li><a href="##expertnation_28">Pappinbarra Public School, Pappinbarra, NSW, Australia</a></li><li><a href="##expertnation_29">Prince Alfred College, Adelaide, SA, Australia</a></li><li><a href="##expertnation_30">St Andrew, Naracoorte, SA, Australia</a></li><li><a href="##expertnation_46">Roseworthy Agricultural College, Roseworthy, SA, Australia</a></li><li><a href="##expertnation_31">St Patrick&apos;s College, Ballarat, VIC, Australia</a></li><li><a href="##expertnation_47">South Australian School of Mines and Industries, Adelaide, SA, Australia</a></li><li><a href="##expertnation_27">Newcastle High School</a></li></ul></td></tr></tbody></table></div>
 </div>
 
 
-<p>This file was created at 1592380138086 by
+<p>This file was created at 1592540906327 by
 <a href='https://code.research.uts.edu.au/eresearch/calcytejs'>
 Calcyte</a> which implements the <a href=''>
 Draft RO-Crate format</a>, version 

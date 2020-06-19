@@ -13,167 +13,28 @@
       "name": "ExpertNation Fragment RO-Crate demo",
       "hasMember": [
         {
-          "@id": "#expertnation_32"
+          "@id": "#Person"
         },
         {
-          "@id": "#expertnation_48"
+          "@id": "#Place"
         },
         {
-          "@id": "#expertnation_17"
-        },
-        {
-          "@id": "#expertnation_49"
-        },
-        {
-          "@id": "#expertnation_18"
-        },
-        {
-          "@id": "#expertnation_66"
-        },
-        {
-          "@id": "#expertnation_19"
-        },
-        {
-          "@id": "#expertnation_67"
-        },
-        {
-          "@id": "#expertnation_20"
-        },
-        {
-          "@id": "#expertnation_68"
-        },
-        {
-          "@id": "#expertnation_21"
-        },
-        {
-          "@id": "#expertnation_69"
-        },
-        {
-          "@id": "#expertnation_22"
-        },
-        {
-          "@id": "#expertnation_54"
-        },
-        {
-          "@id": "#expertnation_70"
-        },
-        {
-          "@id": "#expertnation_7"
-        },
-        {
-          "@id": "#expertnation_23"
-        },
-        {
-          "@id": "#expertnation_39"
-        },
-        {
-          "@id": "#expertnation_55"
-        },
-        {
-          "@id": "#expertnation_71"
-        },
-        {
-          "@id": "#expertnation_8"
-        },
-        {
-          "@id": "#expertnation_24"
-        },
-        {
-          "@id": "#expertnation_40"
-        },
-        {
-          "@id": "#expertnation_56"
-        },
-        {
-          "@id": "#expertnation_72"
-        },
-        {
-          "@id": "#expertnation_9"
-        },
-        {
-          "@id": "#expertnation_25"
-        },
-        {
-          "@id": "#expertnation_41"
-        },
-        {
-          "@id": "#expertnation_57"
-        },
-        {
-          "@id": "#expertnation_73"
-        },
-        {
-          "@id": "#expertnation_10"
-        },
-        {
-          "@id": "#expertnation_26"
-        },
-        {
-          "@id": "#expertnation_42"
-        },
-        {
-          "@id": "#expertnation_58"
-        },
-        {
-          "@id": "#expertnation_74"
-        },
-        {
-          "@id": "#expertnation_11"
-        },
-        {
-          "@id": "#expertnation_43"
-        },
-        {
-          "@id": "#expertnation_59"
-        },
-        {
-          "@id": "#expertnation_12"
-        },
-        {
-          "@id": "#expertnation_28"
-        },
-        {
-          "@id": "#expertnation_44"
-        },
-        {
-          "@id": "#expertnation_60"
-        },
-        {
-          "@id": "#expertnation_29"
-        },
-        {
-          "@id": "#expertnation_45"
-        },
-        {
-          "@id": "#expertnation_61"
-        },
-        {
-          "@id": "#expertnation_30"
-        },
-        {
-          "@id": "#expertnation_46"
-        },
-        {
-          "@id": "#expertnation_31"
-        },
-        {
-          "@id": "#expertnation_47"
-        },
-        {
-          "@id": "#expertnation_64"
-        },
-        {
-          "@id": "#expertnation_65"
-        },
-        {
-          "@id": "#expertnation_62"
-        },
-        {
-          "@id": "#expertnation_63"
-        },
-        {
-          "@id": "#expertnation_53"
-        },
+          "@id": "#EducationalOrganization"
+        }
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "identifier": "ro-crate-metadata.jsonld"
+    },
+    {
+      "@id": "#Person",
+      "name": "Collection: Person",
+      "hasMember": [
         {
           "@id": "#expertnation_1"
         },
@@ -191,7 +52,13 @@
         },
         {
           "@id": "#expertnation_6"
-        },
+        }
+      ]
+    },
+    {
+      "@id": "#Place",
+      "name": "Collection: Place",
+      "hasMember": [
         {
           "@id": "#expertnation_16"
         },
@@ -223,9 +90,6 @@
           "@id": "#expertnation_38"
         },
         {
-          "@id": "#expertnation_27"
-        },
-        {
           "@id": "#expertnation_13"
         },
         {
@@ -237,17 +101,51 @@
       ]
     },
     {
-      "@id": "ro-crate-metadata.jsonld",
-      "@type": "CreativeWork",
-      "about": {
-        "@id": "./"
-      },
-      "identifier": "ro-crate-metadata.jsonld"
+      "@id": "#EducationalOrganization",
+      "name": "Collection: EducationalOrganization",
+      "hasMember": [
+        {
+          "@id": "#expertnation_32"
+        },
+        {
+          "@id": "#expertnation_48"
+        },
+        {
+          "@id": "#expertnation_49"
+        },
+        {
+          "@id": "#expertnation_25"
+        },
+        {
+          "@id": "#expertnation_26"
+        },
+        {
+          "@id": "#expertnation_28"
+        },
+        {
+          "@id": "#expertnation_29"
+        },
+        {
+          "@id": "#expertnation_30"
+        },
+        {
+          "@id": "#expertnation_46"
+        },
+        {
+          "@id": "#expertnation_31"
+        },
+        {
+          "@id": "#expertnation_47"
+        },
+        {
+          "@id": "#expertnation_27"
+        }
+      ]
     },
     {
       "@id": "#expertnation_32",
       "name": "The Junction Public School, The Junction, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "The Junction Public School",
       "Place": {
         "@id": "#expertnation_38"
@@ -256,7 +154,7 @@
     {
       "@id": "#expertnation_48",
       "name": "Sydney Teacher's College, Camperdown, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Sydney Teacher's College",
       "Place": {
         "@id": "#expertnation_52"
@@ -278,7 +176,7 @@
     {
       "@id": "#expertnation_49",
       "name": "University of Sydney, Camperdown, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "University of Sydney",
       "Place": {
         "@id": "#expertnation_52"
@@ -300,7 +198,7 @@
     {
       "@id": "#expertnation_66",
       "name": "Cobham R.S. : Share-Farmer",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_1"
       },
@@ -325,7 +223,7 @@
     {
       "@id": "#expertnation_67",
       "name": "Colgan T.D. : Headmaster",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_2"
       },
@@ -350,7 +248,7 @@
     {
       "@id": "#expertnation_68",
       "name": "Colgan T.D. : Teacher",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_2"
       },
@@ -375,7 +273,7 @@
     {
       "@id": "#expertnation_69",
       "name": "Cornford H.W. : Assistant Teacher",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_3"
       },
@@ -400,7 +298,7 @@
     {
       "@id": "#expertnation_54",
       "name": "Grieve A.C. : Enlisted",
-      "@type": "Military service",
+      "@type": "Military_service",
       "Parent_record__person_": {
         "@id": "#expertnation_4"
       },
@@ -412,7 +310,7 @@
     {
       "@id": "#expertnation_70",
       "name": "Cornford H.W. : Teacher",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_3"
       },
@@ -451,7 +349,7 @@
     {
       "@id": "#expertnation_39",
       "name": "Cobham R.S. : Agricultural Science, Roseworthy Agricultural College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_1"
       },
@@ -466,7 +364,7 @@
     {
       "@id": "#expertnation_55",
       "name": "McLean D.R. : Enlisted",
-      "@type": "Military service",
+      "@type": "Military_service",
       "Parent_record__person_": {
         "@id": "#expertnation_5"
       },
@@ -477,7 +375,7 @@
     {
       "@id": "#expertnation_71",
       "name": "Grieve A.C. : Sheep Farmer - @ Naracoorte [ SA Australia ]",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_4"
       },
@@ -519,7 +417,7 @@
     {
       "@id": "#expertnation_40",
       "name": "Colgan T.D. : Education, Sydney Teacher's College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_2"
       },
@@ -534,7 +432,7 @@
     {
       "@id": "#expertnation_56",
       "name": "McNeil W.G. : Enlisted: Private",
-      "@type": "Military service",
+      "@type": "Military_service",
       "Short__description": "Private McNeil joined the AIF but was discharged a month later, reason was cessation of hostility.",
       "Parent_record__person_": {
         "@id": "#expertnation_6"
@@ -548,7 +446,7 @@
     {
       "@id": "#expertnation_72",
       "name": "Grieve A.C. : Stock Agent - @ Naracoorte [ SA Australia ]",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_4"
       },
@@ -576,7 +474,7 @@
     {
       "@id": "#expertnation_25",
       "name": "Gannon's Creek Public School, Gannon's Creek, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Gannon's Creek Public School",
       "Place": {
         "@id": "#expertnation_34"
@@ -585,7 +483,7 @@
     {
       "@id": "#expertnation_41",
       "name": "Cornford H.W. : Arts, University of Sydney",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_3"
       },
@@ -611,7 +509,7 @@
     {
       "@id": "#expertnation_73",
       "name": "McNeil W.G. : Manager",
-      "@type": "Occupation eventlet",
+      "@type": "Occupation_eventlet",
       "Person__": {
         "@id": "#expertnation_6"
       },
@@ -638,7 +536,7 @@
     {
       "@id": "#expertnation_26",
       "name": "Huntington Public School, Huntington, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Huntington Public School",
       "Place": {
         "@id": "#expertnation_35"
@@ -647,7 +545,7 @@
     {
       "@id": "#expertnation_42",
       "name": "Cornford H.W. : Education, Sydney Teacher's College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_3"
       },
@@ -673,7 +571,7 @@
     {
       "@id": "#expertnation_74",
       "name": "IsSiblingOf : >> Cobham, R.S. (Roger Synnot)",
-      "@type": "Record relationship",
+      "@type": "Record_relationship",
       "Relationship_type": "IsSiblingOf",
       "Target_record": {
         "@id": "#expertnation_1"
@@ -696,7 +594,7 @@
     {
       "@id": "#expertnation_43",
       "name": "Grieve A.C. : Roseworthy Diploma in Agriculture RDA, Roseworthy Agricultural College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_4"
       },
@@ -739,7 +637,7 @@
     {
       "@id": "#expertnation_28",
       "name": "Pappinbarra Public School, Pappinbarra, NSW, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Pappinbarra Public School",
       "Place": {
         "@id": "#expertnation_36"
@@ -748,7 +646,7 @@
     {
       "@id": "#expertnation_44",
       "name": "McLean D.R. : Science, South Australian School of Mines and Industries",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Parent_record__person_": {
         "@id": "#expertnation_5"
       },
@@ -773,7 +671,7 @@
     {
       "@id": "#expertnation_29",
       "name": "Prince Alfred College, Adelaide, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Prince Alfred College",
       "Place": {
         "@id": "#expertnation_37"
@@ -782,7 +680,7 @@
     {
       "@id": "#expertnation_45",
       "name": "McNeil W.G. : Agr.Sci., Roseworthy Agricultural College",
-      "@type": "Tertiary study",
+      "@type": "Tertiary_study",
       "Source_info___additional_notes": "Mr McNeil left his studies to enlist in the Australian Army during the First World War.",
       "Parent_record__person_": {
         "@id": "#expertnation_6"
@@ -813,7 +711,7 @@
     {
       "@id": "#expertnation_30",
       "name": "St Andrew, Naracoorte, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "St Andrew",
       "Place": {
         "@id": "#expertnation_14"
@@ -822,7 +720,7 @@
     {
       "@id": "#expertnation_46",
       "name": "Roseworthy Agricultural College, Roseworthy, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Roseworthy Agricultural College",
       "Place": {
         "@id": "#expertnation_51"
@@ -831,7 +729,7 @@
     {
       "@id": "#expertnation_31",
       "name": "St Patrick's College, Ballarat, VIC, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "St Patrick's College",
       "Place": {
         "@id": "#expertnation_33"
@@ -840,7 +738,7 @@
     {
       "@id": "#expertnation_47",
       "name": "South Australian School of Mines and Industries, Adelaide, SA, Australia",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "South Australian School of Mines and Industries",
       "Country": "Australia",
       "Place": {
@@ -858,7 +756,7 @@
     {
       "@id": "#expertnation_64",
       "name": "StudentCard-Grieve-AC [ pdf ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "StudentCard-Grieve-AC",
       "hasFile": {
         "@id": "ulf_7_D2011 55157  Roseworthy College Student Card - Alexander Clayhills GRIEVE.pdf"
@@ -877,7 +775,7 @@
     {
       "@id": "#expertnation_65",
       "name": "War Service Record-Grieve-AC [ pdf ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "War Service Record-Grieve-AC",
       "hasFile": {
         "@id": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=4711553 "
@@ -898,7 +796,7 @@
     {
       "@id": "#expertnation_62",
       "name": "1919-20 Roseworthy Students [ jpeg ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "1919-20 Roseworthy Students",
       "Document_category": "Photograph of person",
       "hasFile": {
@@ -919,7 +817,7 @@
     {
       "@id": "#expertnation_63",
       "name": "Student Card [ jpg ]",
-      "@type": "Digital media item",
+      "@type": "Digital_media_item",
       "Media_item_title": "Student Card",
       "hasFile": {
         "@id": "ulf_6_SC Mclean, Donald Robert.JPG"
@@ -930,7 +828,7 @@
     {
       "@id": "#expertnation_53",
       "name": "Government Scholarship (StudBioID)",
-      "@type": "Scholarship awards",
+      "@type": "Scholarship_awards",
       "Award___scholarship_name": "Government Scholarship",
       "Type_of_award": "Scholarship"
     },
@@ -1127,7 +1025,7 @@
     {
       "@id": "#expertnation_16",
       "name": "Victoria [ VIC Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Victoria",
       "City__State__Province_or_Region": "VIC",
       "Country": "Australia",
@@ -1137,7 +1035,7 @@
     {
       "@id": "#expertnation_33",
       "name": "Ballarat [ VIC Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Ballarat",
       "City__State__Province_or_Region": "VIC",
       "Country": "Australia",
@@ -1146,7 +1044,7 @@
     {
       "@id": "#expertnation_34",
       "name": "Gannon's Creek [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Gannon's Creek",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
@@ -1155,7 +1053,7 @@
     {
       "@id": "#expertnation_50",
       "name": "Adelaide [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Adelaide",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -1169,7 +1067,7 @@
     {
       "@id": "#expertnation_35",
       "name": "Huntington [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Huntington",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
@@ -1178,7 +1076,7 @@
     {
       "@id": "#expertnation_51",
       "name": "Roseworthy Agricultural College : Roseworthy [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Roseworthy",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -1190,7 +1088,7 @@
     {
       "@id": "#expertnation_36",
       "name": "Pappinbarra [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Pappinbarra",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
@@ -1199,7 +1097,7 @@
     {
       "@id": "#expertnation_52",
       "name": "University of Sydney : Camperdown [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Camperdown",
       "City__State__Province_or_Region": "NSW",
       "Excel_ID": "49",
@@ -1212,7 +1110,7 @@
     {
       "@id": "#expertnation_37",
       "name": "Prince Alfred College : Adelaide [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Adelaide",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -1223,7 +1121,7 @@
     {
       "@id": "#expertnation_38",
       "name": "The Junction [ NSW Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "The Junction",
       "City__State__Province_or_Region": "NSW",
       "Country": "Australia",
@@ -1232,7 +1130,7 @@
     {
       "@id": "#expertnation_27",
       "name": "Newcastle High School",
-      "@type": "Educational institution",
+      "@type": "EducationalOrganization",
       "Name_of_institution": "Newcastle High School",
       "City": "Newcastle",
       "State": "NSW",
@@ -1241,7 +1139,7 @@
     {
       "@id": "#expertnation_13",
       "name": "Melbourne [ VIC Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Melbourne",
       "City__State__Province_or_Region": "VIC",
       "Country": "Australia",
@@ -1255,7 +1153,7 @@
     {
       "@id": "#expertnation_14",
       "name": "Naracoorte [ SA Australia ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "Naracoorte",
       "City__State__Province_or_Region": "SA",
       "Country": "Australia",
@@ -1265,7 +1163,7 @@
     {
       "@id": "#expertnation_15",
       "name": "New Zealand [ New Zealand ]",
-      "@type": "Place 2",
+      "@type": "Place",
       "Place_name": "New Zealand",
       "Country": "New Zealand",
       "Excel_ID": "1086",

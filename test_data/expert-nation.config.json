@@ -1,0 +1,9 @@
+{
+    "Comment": "Sample config for expert nation data",
+        "typeLookup": {
+            "Person 2": "Person",
+            "Place 2": "Place",
+            "Educational institution": "EducationalOrganization"
+        },
+    "collectionTypes":  ["Person", "Place", "EducationalOrganization"]
+}
