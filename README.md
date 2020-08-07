@@ -39,7 +39,7 @@ Options:
   -d, --domain [domain]                A prefix for the dataset IDs (default: "test")
   -o, --out [out]                      Output directory in which to write the new ro-crate (default: "new_crate")
   -b, --baseCrate [RO-Crate template]  Basic RO-Crate metadata file into which data should be added (default: "test_data/template-ro-crate-metadata.json")
-  -f, --files [files]                  Data directory from which to copy files (default: "test_data/files")
+  -f, --files [files]                  Data directory from which to copy files 
   -h, --help                           output usage information
 ```
 

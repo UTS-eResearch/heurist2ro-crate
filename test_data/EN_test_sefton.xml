@@ -107,7 +107,7 @@
 <modified>2020-05-05 18:41:39</modified>
 <workgroup id="1">Database Managers</workgroup>
 <detail conceptID="2-16" name="Person &gt;" id="16" basename="Person" isRecordPointer="true">2</detail>
-<detail conceptID="1125-205" name="Sector" id="1027" basename="Sector" termID="10426" termConceptID="1125-4873" ParentTerm="Occupation sector">Education-Primary &amp; Secondary</detail>
+<detail conceptID="1125-205" name="Sector" id="1027 " basename="Sector" termID="10426" termConceptID="1125-4873" ParentTerm="Occupation sector">Education-Primary &amp; Secondary</detail>
 <detail conceptID="1125-150" name="Occupation title" id="1028" basename="Occupation type" termID="7405" termConceptID="1125-5062" ParentTerm="Occupation">Headmaster</detail>
 <detail conceptID="1125-251" name="Sources" id="996" basename="Sources" termID="8589" termConceptID="1125-5227" ParentTerm="Sources">State Records NSW</detail>
 <detail conceptID="1125-256" name="Source Details free text" id="997" basename="Source Details free text">Dept Education staff card - 171</detail>

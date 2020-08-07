@@ -1,9 +1,11 @@
 {
     "Comment": "Sample config for expert nation data",
-        "typeLookup": {
-            "Person 2": "Person",
-            "Place 2": "Place",
-            "Educational institution": "EducationalOrganization"
-        },
-    "collectionTypes":  ["Person", "Place", "EducationalOrganization"]
+    "namespace": "http://expertnation2020.uts.edu.au/vocab/#",
+    "typeLookup": {
+        "Person 2": "Person",
+        "Place 2": "Place",
+        "Educational institution": "EducationalOrganization",
+        "Occupation_eventlet": "OrganizationalRole"
+    },
+    "collectionTypes":  ["Person", "Place", "EducationalOrganization", "Occupation", "OccupationSector"]
 }
