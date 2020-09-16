@@ -1,13 +1,27 @@
 # heurist2ro-crate
-Heurist XML export format to RO-Crate converter
+
+Heurist XML export format to RO-Crate converter.
+
+
 
 ## Install 
 
-Type:
+Get this repository.
+
+```
+    git clone https://github.com/UTS-eResearch/heurist2ro-crate.git
+```
+
+To install. 
 ```
 npm install .
 npm link # so you can use h2ro anywhere
 ```
+
+Install the RO-Crate HTML library to generate static HTML: (TODO - add that this library)
+
+-  Follow the instructions over here: <https://github.com/UTS-eResearch/ro-crate-js>
+
 
 ## Run it
 
