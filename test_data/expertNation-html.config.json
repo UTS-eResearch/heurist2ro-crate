@@ -1,0 +1,115 @@
+{
+    "pageSize" : 200,
+    "collectionTypes": [
+        "Person",
+        "Occupation",
+        "OccupationSector"
+    ],
+    "datasetProperty": {
+        "Person": "about"
+    },
+    "types": {
+        "OccupationSector": {
+            "reverseProps" : {
+                "sector"  : {
+                    "types" : {
+                        "OccupationEventlet" : {}
+                    }
+                }
+            }
+        },
+    
+        "Occupation": {
+            "props": {
+                "name": {}
+            },
+            "reverseProps": {
+                "occupationType" : {
+                    "types": {
+                        "OccupationEventlet": {
+                            "props": {
+                                "person_" : {
+                                    "types": {"Person": {}}
+                                }
+                            }    
+                    }
+                }
+            } 
+        }},
+      
+        "Person": {
+            "props": {
+                "birthPlace": {},
+                "otherEvents": {},
+                "militaryService": {
+                    "types" : {
+                        "MilitaryService" : {
+                            "props": {
+                                "typeOfEvent": {},
+                                "place": {},
+                                "forceOrUnit": {},
+                                "sources": {},
+                                "sourceDetailsFreeText": {}
+                            }
+                        }
+                    }
+                },
+                "death": {},
+                "tertiaryEducation": {},
+                "birth": {
+                    "types": {
+                        "Eventlet": {
+                            "props": {
+                                "typeOfEvent": {}
+                            }
+                        }
+                    }
+                },
+                "occupation_": {
+                    "types": {
+                        "OccupationEventlet": {
+                            "props": {
+                                  "occupationType": {
+                                    "types" : {
+                                        "Occupation": {
+                                            "props": {
+                                                "name": {}
+                                            }
+                                       }
+                                    }
+                                  },
+                                  "sector": {
+                                   
+                                  },
+                                  "sources": {
+                                   
+                                  }
+                            }
+                        }
+                    }
+                },
+                "universityConnections": {},
+                "survived": {}
+            },
+            "reverseProps": {
+                "object": {
+                    "types": {
+                        "Action": {
+                            "props": {
+                                "location": {
+                                    "types": {
+                                        "Place": {
+                                            "props": {
+                                                "geo": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
