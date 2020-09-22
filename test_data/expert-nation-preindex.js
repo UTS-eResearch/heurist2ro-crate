@@ -20,7 +20,7 @@ async function addFacets(crate) {
     crate.index();
     for (let item of crate.getGraph()) {
         if (item["@type"] === "MilitaryService") {
-            placesMatch = item.name.match(/.*\[\s+(.*)\].*/);
+            placesMatch = item.name.match(/.*\[\s*(.*?)\s*\].*/);
             if (placesMatch) {
                 item._militaryServicePlace = placesMatch[1].split(/, */);
             }
