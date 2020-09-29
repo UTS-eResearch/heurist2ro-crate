@@ -19,10 +19,13 @@ async function addFacets(crate) {
 
     crate.index();
     for (let item of crate.getGraph()) {
-        if (item["@type"] === "MilitaryService") {
-            let placesMatch = item.name.match(/.*\[\s*(.*?)\s*\].*/);
-            if (placesMatch) {
-                item._militaryServicePlace = placesMatch[1].split(/, */);
+        if (item["@type"] === "Person") {
+            if (item["militaryService"] && item["militaryService"]["@id"]) {
+                const mil = crate.getItem(item["militaryService"]["@id"]);
+                placesMatch = mil.name.match(/.*\[\s*(.*?)\s*\].*/);
+                if (placesMatch) {
+                    item.militaryServicePlace = placesMatch[1].split(/, */);
+                }
             }
         }
     }
