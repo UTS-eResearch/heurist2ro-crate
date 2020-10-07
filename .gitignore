@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+package-lock.json
+ExpertNation.xml
+data.json
+en_ocfl
+en_crate
+package-lock.json
+.idea

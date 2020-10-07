@@ -7,7 +7,16 @@
     "h2roc": "h2roc"
   },
   "scripts": {
-    "test": "mocha"
+    "sample": "h2roc -c test_data/expert-nation.config.json -d https://expertnation2020.edu.au -o sample_crate EN_test_sefton.xml",
+    "sample_html": "rocstatic -c test_data/expertNation-html.config.json sample_crate/",
+    "clean": "npm run clean:ocfl && npm run clean:crate",
+    "clean:crate": "rm -rf en_crate",
+    "clean:ocfl": "rm -rf en_ocfl",
+    "all": "npm run real && npm run html",
+    "real": "mkdir -p en_crate && h2roc -b en_config/template-ro-crate-metadata.json -c en_config/expert-nation.config.json -d expertnation2020.uts.edu.au ExpertNation.xml -o en_crate/",
+    "html": "mkdir -p en_crate && rocstatic -c en_config/expertNation-html.config.json en_crate/",
+    "facet": "node en_config/expert-nation-preindex.js test_data",
+    "ocfl": "node make-ocfl.js --repo en_ocfl --name expert-nation en_crate/"
   },
   "repository": {
     "type": "git",

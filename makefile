@@ -1,18 +1,18 @@
+# Not sure if required but leave it here, maybe its handy
 
 sample:
-	h2roc -c test_data/expert-nation.config.json -d https://expertnation2020.edu.au -o sample_crate EN_test_sefton.xml
-	sample_html 
+	npm run sample
 
 sample_html:
-	rocstatic -c test_data/expertNation-html.config.json sample_crate/ 
+	rnpm run sample_html
 
 all: real html
 real: 
-	h2roc -c test_data/expert-nation.config.json -d https://expertnation2020.edu.au ExpertNation.xml
+	npm run real
 	
 html:
-	rocstatic -c test_data/expertNation-html.config.json new_crate/ 
+	npm run html
 
 ocfl: 
-	 node make-ocfl.js --repo expert-nation --name expert-nation  new_crate/
+	 npm run ocfl
 	

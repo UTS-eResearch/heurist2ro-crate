@@ -9,7 +9,7 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "Description": "Test export of Heurist converted to RO-Crate",
+      "Description": "Export of Heurist XML dataset to RO-Crate",
       "name": "ExpertNation Fragment RO-Crate demo"
     },
     {

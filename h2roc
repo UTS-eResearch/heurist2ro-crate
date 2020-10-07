@@ -39,7 +39,7 @@ async function main() {
      const converter = new Converter({
         destDir: destDir,
         filesDir: filesDir,
-        crateTemplate, crateTemplate,
+        crateTemplate: crateTemplate,
         hxml: hxml,
         domain: domain,
         configPath: JSON.parse(await fs.readFile(configPath))
