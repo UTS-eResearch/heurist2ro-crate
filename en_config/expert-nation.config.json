@@ -7,5 +7,5 @@
         "Educational institution": "EducationalOrganization",
         "Occupation_eventlet": "OrganizationalRole"
     },
-    "collectionTypes":  ["Person", "Place", "EducationalOrganization", "Occupation", "OccupationSector"]
+    "collectionTypes":  ["Person", "Place", "OccupationSector", "Occupation"]
 }

@@ -7,8 +7,8 @@
     "h2roc": "h2roc"
   },
   "scripts": {
-    "sample": "h2roc -c test_data/expert-nation.config.json -d https://expertnation2020.edu.au -o sample_crate EN_test_sefton.xml",
-    "sample_html": "rocstatic -c test_data/expertNation-html.config.json sample_crate/",
+    "sample": "h2roc -c en_config/expert-nation.config.json -d https://expertnation2020.edu.au -o sample_crate EN_test_sefton.xml",
+    "sample_html": "rocstatic -c en_config/expertNation-html.config.json sample_crate/",
     "clean": "npm run clean:ocfl && npm run clean:crate",
     "clean:crate": "rm -rf en_crate",
     "clean:ocfl": "rm -rf en_ocfl",
@@ -35,7 +35,8 @@
     "fs-extra": "^9.0.1",
     "ocfl": "^1.0.9",
     "pairtree": "0.0.1",
-    "ro-crate": "^1.5.0",
+    "ro-crate": "^1.6.0",
+    "ro-crate-html-js": "^1.4.7",
     "xml2js": "^0.4.23",
     "yargs": "^16.0.3"
   }

@@ -14,12 +14,12 @@ program
     "Converts a Heurist XML file to an RO Crate and copies data from the --files directory specified"
   )
   .arguments("<i>")
-  .option("-c, --config [config]", "Configuration file", "test_data/expert-nation.config.json")
+  .option("-c, --config [config]", "Configuration file", "en_config/expert-nation.config.json")
   .option("-d, --domain [domain]", "A prefix for the dataset IDs", "test")
   .option("-o, --out [out]", "Output directory in which to write the new ro-crate", "new_crate")
-  .option("-b, --baseCrate [RO-Crate template]", "Basic RO-Crate metadata file into which data should be added", "test_data/template-ro-crate-metadata.json")
+  .option("-b, --baseCrate [RO-Crate template]", "Basic RO-Crate metadata file into which data should be added", "en_config/template-ro-crate-metadata.json")
   .option("-f, --files [files]", "Data directory from which to copy files", null)
-  .action((i) => {inputFile = i || "test_data/EN_test_sefton.xml"})
+  .action((i) => {inputFile = i || "en_config/EN_test_sefton.xml"})
 program.parse(process.argv);
 
 const destDir = program.out ;

@@ -10,34 +10,20 @@
     },
     "types": {
         "OccupationSector": {
-            "reverseProps" : {
-                "sector"  : {
-                    "types" : {
-                        "OccupationEventlet" : {}
-                    }
-                }
-            }
+            "resolveAll": [
+                [{"property": "sector", "@reverse": true}]
+                  ]
+           
         },
     
         "Occupation": {
-            "props": {
-                "name": {}
-            },
-            "reverseProps": {
-                "occupationType" : {
-                    "types": {
-                        "OccupationEventlet": {
-                            "props": {
-                                "person_" : {
-                                    "types": {"Person": {}}
-                                }
-                            }    
-                    }
-                }
-            } 
-        }},
+            
+        
+        },
       
         "Person": {
+
+            
             "props": {
                 "birthPlace": {},
                 "hasFile": {},
